@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "dmxapi"
-  text: "dmxapi official docs"
-  tagline: 一个 Key 用全球大模型
+  name: "dmxdocs"
+  text: "dmx official docs"
+  tagline: My great project tagline
   actions:
     - theme: brand
       text: Markdown Examples
