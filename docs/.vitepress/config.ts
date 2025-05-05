@@ -26,7 +26,7 @@ export const sidebars: Record<string, DefaultTheme.SidebarItem[] | DefaultTheme.
     '/pages/en/ui/': calculateSidebar(['pages/en/ui'], undefined, { '/': 2 }),
   } as DefaultTheme.SidebarMulti,
   'zh-CN': {
-    '/pages/zh-CN/': calculateSidebar(['pages/zh-CN/guide', 'pages/zh-CN/integrations', 'pages/zh-CN/releases'], undefined, { '/': 2 }),
+    '/pages/zh-CN/': calculateSidebar(['pages/zh-CN/guide', 'pages/zh-CN/knowledge', 'pages/zh-CN/models', 'pages/zh-CN/integrations', 'pages/zh-CN/release'], undefined, { '/': 2 }),
     '/pages/zh-CN/ui/': calculateSidebar(['pages/zh-CN/ui'], undefined, { '/': 2 }),
   } as DefaultTheme.SidebarMulti,
 }
@@ -77,8 +77,8 @@ export default defineConfig({
     // externalLinkIcon: true,
     outline: 'deep',
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/nolebase/integrations' },
-      { icon: 'discord', link: 'https://discord.gg/XuNFDcDZGj' },
+      { icon: 'github', link: 'https://github.com/dmxapi' },
+      { icon: 'discord', link: 'https://dmxapi.cn/' },
     ],
     search: {
       provider: 'local',
@@ -106,7 +106,7 @@ export default defineConfig({
   },
   buildConcurrency: 1000,
   locales: {
-    'root': {
+    'English': {
       label: 'English',
       lang: 'en',
       link: '/pages/en/',
@@ -145,23 +145,23 @@ export default defineConfig({
         sidebar: sidebars.en,
       },
     },
-    'zh-CN': {
+    'root': {
       label: '简体中文',
       lang: 'zh-CN',
       link: '/pages/zh-CN/',
-      title: 'Nólëbase 集成',
-      description: '多元化的文档工程工具合集',
+      title: 'DMX API 文档',
+      description: '一个 Key 使用全球大模型',
       themeConfig: {
         nav: [
           {
-            text: '指南',
+            text: '快速入门',
             items: [
               { text: '快速开始', link: '/pages/zh-CN/guide/getting-started' },
               { text: '最近更新', link: '/pages/zh-CN/recent-updates' },
             ],
           },
-          { text: '集成', link: '/pages/zh-CN/integrations/' },
-          { text: 'UI 组件', link: '/pages/zh-CN/ui/' },
+          { text: '模型上新', link: '/pages/zh-CN/integrations/' },
+          { text: '工作台', link: '/pages/zh-CN/ui/' },
           {
             text: packageJSON.version,
             items: [

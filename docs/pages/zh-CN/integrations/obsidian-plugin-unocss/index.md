@@ -1,6 +1,7 @@
 ---
 title: UnoCSS 插件
 category: UnoCSS 插件
+gitChangelog: false
 ---
 
 # UnoCSS 插件 <Badge type="warning" text="Beta 测试" />

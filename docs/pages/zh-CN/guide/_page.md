@@ -1,4 +1,4 @@
 ---
-sidebarTitle: 指南
+sidebarTitle: 01 快速开始
 sidebarCollapsed: false
 ---

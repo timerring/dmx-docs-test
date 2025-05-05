@@ -3,21 +3,21 @@
 layout: home
 
 hero:
-  name: Nólëbase 集成
-  text: 多元化的文档工程工具合集
-  tagline: 为基于本地优先的知识库和静态生成器的文档工程提供更好的体验
+  name: DMXAPI 文档
+  text: 一个 Key 用全球大模型
+  tagline: DMX = 大模型拼音首字母
   image:
     src: /logo-day.png
   actions:
     - theme: brand
-      text: 开始使用
+      text: 查看文档
       link: /pages/zh-CN/guide/getting-started
     - theme: alt
-      text: 加入 Discord 服务器
-      link: https://discord.gg/XuNFDcDZGj
+      text: 访问官网
+      link: https://dmxapi.cn
     - theme: alt
       text: 在 GitHub 上查看
-      link: https://github.com/nolebase/integrations
+      link: https://github.com/dmxapi/dmxapi-docs
 
 features:
   - icon: <span class="rive-canvas" data-rive-canvas="true" data-rive-src="/icons/star-emoji-animated.riv"></span>
@@ -53,9 +53,9 @@ import thumbnailHash from '~/packages/vitepress-plugin-thumbnail-hash/package.js
 
 <HomeContent>
 
-## 集成列表
+## 支持模型
 
-Nólëbase 集成项目提供多种不同的集成、插件、组件和库来方便在 [Obsidian](https://obsidian.md)，[VitePress](https://vitepress.dev) 和其他兼容 [Markdown It](https://github.com/markdown-it/markdown-it)、[Vite](https://vitejs.dev/) 和 [Vue](https://vuejs.org/) 的项目中使用我们预先封装好的各种花样繁多的功能。
+`DMXAPI` 提供了全面而便捷的大模型 API 集成服务，让开发者能够通过单一接口轻松访问 ChatGPT、Claude、Gemini 和其他主流 大语言模型。我们的解决方案兼容多种开发框架和平台，支持 Node.js、Python、Go 等主流语言，并提供了丰富的示例代码和工具集，帮助开发者快速实现从聊天机器人到内容生成的各类 AI 应用场景。
 
 <div class="grid gap-5 lg:grid-cols-2 max-w-172 lg:max-w-none mx-auto">
   <IntegrationCard type="markdown-it" title="双向链接" package="markdown-it-bi-directional-links">
@@ -155,30 +155,5 @@ Nólëbase 集成项目提供多种不同的集成、插件、组件和库来方
   </IntegrationCard>
 </div>
 
-<div>
-  <h2 text-center mt-11 pb-2>
-    Sponsors
-  </h2>
-  <div flex justify-center>
-    <img src="https://cdn.jsdelivr.net/gh/nolebase/sponsors/sponsors.wide.svg" />
-  </div>
-
-  <p text-center>
-    这个项目得以实现，要感谢所有支持我们的 Sponsors<br>
-    你也可以访问我们的 Sponsors 页面来加入其中：
-  </p>
-  <p flex justify-center gap-4>
-    <a href="https://github.com/sponsors/LittleSound"  target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=Rizumu&logo=GitHub&color=%23fe8e86&style=for-the-badge" /></a>
-    <a href="https://github.com/sponsors/nekomeowww" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=Neko&logo=GitHub&color=%23fe8e86&style=for-the-badge" /></a>
-  </p>
-
-  <h2 text="center lg" my-5 font-bold>
-    💕 感谢所有贡献者！
-  </h2>
-
-  <a href="https://github.com/nolebase/integrations/graphs/contributors" flex justify-center>
-    <img src="https://contrib.rocks/image?repo=nolebase/integrations" />
-  </a>
-</div>
 
 </HomeContent>

@@ -1,6 +1,7 @@
 ---
 title: 自 v2 迁移至 v3
 category: 迁移
+gitChangelog: false
 ---
 
 # 自 `v2` 迁移至 `v3`

@@ -1,5 +1,5 @@
 ---
-sidebarTitle: 05 发布
+sidebarTitle: 02 基础知识
 sidebarCollapsed: false
 gitChangelog: false
 ---
