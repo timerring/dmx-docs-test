@@ -149,8 +149,8 @@ export default defineConfig({
       label: '简体中文',
       lang: 'zh-CN',
       link: '/pages/zh-CN/',
-      title: 'DMXAPI 文档',
-      description: '一个 Key 用全球大模型',
+      title: 'Nólëbase 集成',
+      description: '多元化的文档工程工具合集',
       themeConfig: {
         nav: [
           {

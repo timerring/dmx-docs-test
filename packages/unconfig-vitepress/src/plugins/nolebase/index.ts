@@ -20,6 +20,9 @@ import {
 } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 
 import {
+  NolebaseGitChangelogPlugin,
+} from '@nolebase/vitepress-plugin-git-changelog/client'
+import {
   NolebaseGraphView,
 } from '@nolebase/vitepress-plugin-graph-view/client'
 
@@ -254,6 +257,11 @@ export function NolebasePluginPreset<PagePropertiesObject extends object = any>(
       if (opts.linkPreview?.enable) {
         const linkPreviewOptions = opts.linkPreview?.options ? [opts.linkPreview.options] : []
         app.use(NolebaseInlineLinkPreviewPlugin, ...linkPreviewOptions)
+      }
+
+      if (opts.gitChangelog?.enable) {
+        const gitChangelogOptions = opts.gitChangelog?.options ? [opts.gitChangelog.options] : []
+        app.use(NolebaseGitChangelogPlugin, ...gitChangelogOptions)
       }
 
       if (opts.pageProperties?.enable) {

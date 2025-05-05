@@ -89,6 +89,7 @@ ni @nolebase/<integration-name> -D
 - [元素转换（`markdown-it` 插件）](./packages/markdown-it-element-transform/README.md)
 - [懒加载模糊预览图（`markdown-it` 插件）](./packages/markdown-it-unlazy-img/README.md)
 - [阅读增强（VitePress 插件）](./packages/vitepress-plugin-enhanced-readabilities/README.md)
+- [基于 Git 的页面历史（VitePress 插件）](./packages/vitepress-plugin-git-changelog/README.md)
 - [索引页（VitePress 插件）](./packages/vitepress-plugin-index/README.md)
 - [行内链接预览（VitePress 插件）](./packages/vitepress-plugin-inline-link-preview/README.md)
 - [闪烁高亮当前的目标标题（VitePress 插件）](./packages/vitepress-plugin-highlight-targeted-heading/README.md)

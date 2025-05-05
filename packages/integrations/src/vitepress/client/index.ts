@@ -95,6 +95,14 @@ export function presetClient<PagePropertiesObject extends object = any>(options?
         app.use(NolebaseInlineLinkPreviewPlugin, ...linkPreviewOptions)
       }
 
+      if (opts.gitChangelog) {
+        const { NolebaseGitChangelogPlugin } = await import('@nolebase/vitepress-plugin-git-changelog/client')
+        await import('@nolebase/vitepress-plugin-git-changelog/client/style.css')
+
+        const gitChangelogOptions = opts.gitChangelog?.options ? [opts.gitChangelog.options] : []
+        app.use(NolebaseGitChangelogPlugin, ...gitChangelogOptions)
+      }
+
       if (opts.pageProperties) {
         const { NolebasePagePropertiesPlugin } = await import('@nolebase/vitepress-plugin-page-properties/client')
         await import('@nolebase/vitepress-plugin-page-properties/client/style.css')
