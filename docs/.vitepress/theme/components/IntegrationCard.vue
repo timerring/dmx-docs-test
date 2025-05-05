@@ -22,7 +22,7 @@ const data = useData()
 
 <template>
   <a
-    :href="`/pages/${data.lang.value}/integrations/${props.package}/`"
+    :href="`/${data.lang.value}/integrations/${props.package}/`"
     flex="~ row"
     bg="zinc-100 hover:zinc-200 active:zinc-300 dark:zinc-900 dark:hover:zinc-800 dark:active:zinc-900"
     transition="all duration-200 ease"

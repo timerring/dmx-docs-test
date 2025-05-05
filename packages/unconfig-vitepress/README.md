@@ -24,4 +24,4 @@ pnpm add @nolebase/unconfig-vitepress -D
 
 ## Documentation
 
-Please refer to [Unified Configuration of VitePress](https://nolebase-integrations.ayaka.io/pages/en/integrations/unconfig-vitepress/) for more information.
+Please refer to [Unified Configuration of VitePress](https://nolebase-integrations.ayaka.io/en/integrations/unconfig-vitepress/) for more information.

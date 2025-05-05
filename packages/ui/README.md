@@ -76,4 +76,4 @@ pnpm add @nolebase/ui -D
 
 ## Documentation
 
-Please refer to [UI Components](https://nolebase-integrations.ayaka.io/pages/en/ui/) for more information.
+Please refer to [UI Components](https://nolebase-integrations.ayaka.io/en/ui/) for more information.

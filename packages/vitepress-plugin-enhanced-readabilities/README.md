@@ -24,4 +24,4 @@ pnpm add @nolebase/vitepress-plugin-enhanced-readabilities -D
 
 ## Documentation
 
-Please refer to [Enhanced Readabilities](https://nolebase-integrations.ayaka.io/pages/en/integrations/vitepress-plugin-enhanced-readabilities/) for more information.
+Please refer to [Enhanced Readabilities](https://nolebase-integrations.ayaka.io/en/integrations/vitepress-plugin-enhanced-readabilities/) for more information.

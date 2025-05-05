@@ -24,4 +24,4 @@ pnpm add @nolebase/markdown-it-element-transform -D
 
 ## Documentation
 
-Please refer to [Element Transform](https://nolebase-integrations.ayaka.io/pages/en/integrations/markdown-it-element-transform/) for more information.
+Please refer to [Element Transform](https://nolebase-integrations.ayaka.io/en/integrations/markdown-it-element-transform/) for more information.

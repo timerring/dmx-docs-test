@@ -24,4 +24,4 @@ pnpm add @nolebase/markdown-it-unlazy-img -D
 
 ## Documentation
 
-Please refer to [Lazy loading blurred images](https://nolebase-integrations.ayaka.io/pages/en/integrations/markdown-it-unlazy-img/) for more information.
+Please refer to [Lazy loading blurred images](https://nolebase-integrations.ayaka.io/en/integrations/markdown-it-unlazy-img/) for more information.

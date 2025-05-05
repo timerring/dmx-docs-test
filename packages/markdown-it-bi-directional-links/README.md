@@ -24,4 +24,4 @@ pnpm add @nolebase/markdown-it-bi-directional-links -D
 
 ## Documentation
 
-Please refer to [Bi-directional Links](https://nolebase-integrations.ayaka.io/pages/en/integrations/markdown-it-bi-directional-links/) for more information.
+Please refer to [Bi-directional Links](https://nolebase-integrations.ayaka.io/en/integrations/markdown-it-bi-directional-links/) for more information.

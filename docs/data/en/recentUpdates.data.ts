@@ -1,7 +1,7 @@
 import { createRecentUpdatesLoader } from '@nolebase/vitepress-plugin-index/vitepress'
 
 export default createRecentUpdatesLoader({
-  dir: 'pages/en',
+  dir: 'en',
   rewrites: [
     { from: /^pages\/en\//, to: '' },
   ],

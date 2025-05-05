@@ -24,4 +24,4 @@ pnpm add @nolebase/vitepress-plugin-meta -D
 
 ## Documentation
 
-Please refer to [`<meta>` generation](https://nolebase-integrations.ayaka.io/pages/en/integrations/vitepress-plugin-meta/) for more information.
+Please refer to [`<meta>` generation](https://nolebase-integrations.ayaka.io/en/integrations/vitepress-plugin-meta/) for more information.

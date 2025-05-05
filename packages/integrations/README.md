@@ -26,4 +26,4 @@ pnpm add @nolebase/integrations -D
 
 ## Documentation
 
-Please refer to [Integrations](https://nolebase-integrations.ayaka.io/pages/en/integrations/) for more information.
+Please refer to [Integrations](https://nolebase-integrations.ayaka.io/en/integrations/) for more information.

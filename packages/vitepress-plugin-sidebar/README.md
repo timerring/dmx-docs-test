@@ -24,4 +24,4 @@ pnpm add @nolebase/vitepress-plugin-sidebar -D
 
 ## Documentation
 
-Please refer to [Sidebar](https://nolebase-integrations.ayaka.io/pages/en/integrations/vitepress-plugin-sidebar/) for more information.
+Please refer to [Sidebar](https://nolebase-integrations.ayaka.io/en/integrations/vitepress-plugin-sidebar/) for more information.

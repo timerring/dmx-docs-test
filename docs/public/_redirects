@@ -6,5 +6,5 @@
 /api/v1/page-external-data/submit https://plausible.io/api/event 200
 
 # i18n
-/*  /pages/en/:splat     301
-/*  /pages/zh-CN/:splat  301  Language=zh-cn
+/*  /en/:splat     301
+/*  /zh-CN/:splat  301  Language=zh-cn

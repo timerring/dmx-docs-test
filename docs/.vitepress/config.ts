@@ -22,15 +22,17 @@ function noTwoslash() {
 
 export const sidebars: Record<string, DefaultTheme.SidebarItem[] | DefaultTheme.SidebarMulti> = {
   'en': {
-    '/pages/en/': calculateSidebar(['pages/en/guide', 'pages/en/integrations', 'pages/en/releases'], undefined, { '/': 2 }),
-    '/pages/en/ui/': calculateSidebar(['pages/en/ui'], undefined, { '/': 2 }),
+    '/en/': calculateSidebar(['en/guide', 'en/integrations', 'en/releases'], undefined, { '/': 4 }),
+    '/en/ui/': calculateSidebar(['en/ui'], undefined, { '/': 2 }),
   } as DefaultTheme.SidebarMulti,
   'zh-CN': {
-    '/pages/zh-CN/': calculateSidebar(['pages/zh-CN/guide', 'pages/zh-CN/knowledge', 'pages/zh-CN/models', 'pages/zh-CN/integrations', 'pages/zh-CN/release'], undefined, { '/': 2 }),
-    '/pages/zh-CN/ui/': calculateSidebar(['pages/zh-CN/ui'], undefined, { '/': 2 }),
+    '/zh-CN/': calculateSidebar(['zh-CN/guide', 'zh-CN/knowledge', 'zh-CN/models', 'zh-CN/integrations', 'zh-CN/release'], undefined, { '/': 2 }),
+    '/zh-CN/ui/': calculateSidebar(['zh-CN/ui'], undefined, { '/': 2 }),
   } as DefaultTheme.SidebarMulti,
 }
-
+// 添加调试代码
+// const enSidebar = calculateSidebar(['en/guide', 'en/integrations', 'en/releases'], undefined, { '/': 2 })
+console.log('Generated English sidebar:', sidebars['zh-CN'])
 function getVueProdHydrationMismatchDetailsFlag() {
   if (!env) {
     console.warn('WARNING: env is not available when trying to get Vue Prod Hydration Mismatch Details Flag')
@@ -106,10 +108,10 @@ export default defineConfig({
   },
   buildConcurrency: 1000,
   locales: {
-    'English': {
+    'en': {
       label: 'English',
       lang: 'en',
-      link: '/pages/en/',
+      link: '/en/',
       title: 'Nólëbase Integrations',
       description: 'A collection of diverse documentation engineering tools',
       themeConfig: {
@@ -117,12 +119,12 @@ export default defineConfig({
           {
             text: 'Guide',
             items: [
-              { text: 'Getting Started', link: '/pages/en/guide/getting-started' },
-              { text: 'Recent Updated', link: '/pages/en/recent-updates' },
+              { text: 'Getting Started', link: '/en/guide/getting-started' },
+              { text: 'Recent Updated', link: '/en/recent-updates' },
             ],
           },
-          { text: 'Integrations', link: '/pages/en/integrations/' },
-          { text: 'UI Components', link: '/pages/en/ui/' },
+          { text: 'Integrations', link: '/en/integrations/' },
+          { text: 'UI Components', link: '/en/ui/' },
           {
             text: packageJSON.version,
             items: [
@@ -131,24 +133,24 @@ export default defineConfig({
                 items: [
                   {
                     text: 'Migrate from v1 to v2',
-                    link: '/pages/en/releases/migrations/v1-to-v2',
+                    link: '/en/releases/migrations/v1-to-v2',
                   },
                   {
                     text: 'Migrate from v2 to v3',
-                    link: '/pages/en/releases/migrations/v2-to-v3',
+                    link: '/en/releases/migrations/v2-to-v3',
                   },
                 ],
               },
             ],
           },
         ],
-        sidebar: sidebars.en,
+        sidebar: sidebars['en'],
       },
     },
     'root': {
       label: '简体中文',
       lang: 'zh-CN',
-      link: '/pages/zh-CN/',
+      link: '/zh-CN/',
       title: 'DMX API 文档',
       description: '一个 Key 使用全球大模型',
       themeConfig: {
@@ -156,12 +158,12 @@ export default defineConfig({
           {
             text: '快速入门',
             items: [
-              { text: '快速开始', link: '/pages/zh-CN/guide/getting-started' },
-              { text: '最近更新', link: '/pages/zh-CN/recent-updates' },
+              { text: '快速开始', link: '/zh-CN/guide/getting-started' },
+              { text: '最近更新', link: '/zh-CN/guide/recent-updates' },
             ],
           },
-          { text: '模型上新', link: '/pages/zh-CN/integrations/' },
-          { text: '工作台', link: '/pages/zh-CN/ui/' },
+          { text: '模型上新', link: '/zh-CN/integrations/' },
+          { text: '工作台', link: '/zh-CN/ui/' },
           {
             text: packageJSON.version,
             items: [
@@ -170,11 +172,11 @@ export default defineConfig({
                 items: [
                   {
                     text: '自 v1 迁移至 v2',
-                    link: '/pages/zh-CN/releases/migrations/v1-to-v2',
+                    link: '/zh-CN/releases/migrations/v1-to-v2',
                   },
                   {
                     text: '自 v2 迁移至 v3',
-                    link: '/pages/zh-CN/releases/migrations/v2-to-v3',
+                    link: '/zh-CN/releases/migrations/v2-to-v3',
                   },
                 ],
               },
@@ -224,28 +226,28 @@ export default defineConfig({
       baseUrl: 'https://nolebase-integrations.ayaka.io',
       category: {
         byPathPrefix: [
-          { prefix: '/pages/en/integrations/markdown-it-bi-directional-links', text: 'Markdown It Plugins: Bi-directional links' },
-          { prefix: '/pages/en/integrations/markdown-it', text: 'Markdown It Plugins' },
-          { prefix: '/pages/en/integrations/obsidian-plugin', text: 'Obsidian Plugins' },
-          { prefix: '/pages/en/integrations/vitepress-plugin-inline-link-preview', text: 'VitePress Plugin: Inline Links Previewing' },
-          { prefix: '/pages/en/integrations/vitepress-plugin-git-changelog', text: 'VitePress Plugin: Git-based page histories' },
-          { prefix: '/pages/en/integrations/vitepress-plugin-thumbnail-hash', text: 'VitePress Plugin: Thumbnail hashing for images' },
-          { prefix: '/pages/en/integrations/vitepress-plugin', text: 'VitePress Plugins' },
-          { prefix: '/pages/en/integrations/', text: 'Integrations' },
-          { prefix: '/pages/en/guide/', text: 'Guide' },
-          { prefix: '/pages/en/ui/', text: 'UI Components' },
-          { prefix: '/pages/en/', text: 'Documentations' },
-          { prefix: '/pages/zh-CN/integrations/markdown-it-bi-directional-links', text: 'Markdown It 插件：双向链接' },
-          { prefix: '/pages/zh-CN/integrations/markdown-it', text: 'Markdown It 插件' },
-          { prefix: '/pages/zh-CN/integrations/obsidian-plugin', text: 'Obsidian 插件' },
-          { prefix: '/pages/zh-CN/integrations/vitepress-plugin-inline-link-preview', text: 'VitePress 插件：行内链接预览' },
-          { prefix: '/pages/zh-CN/integrations/vitepress-plugin-git-changelog', text: 'VitePress 插件：变更日志 及 文件历史' },
-          { prefix: '/pages/zh-CN/integrations/vitepress-plugin-thumbnail-hash', text: 'VitePress 插件：缩略图模糊哈希生成' },
-          { prefix: '/pages/zh-CN/integrations/vitepress-plugin', text: 'VitePress 插件' },
-          { prefix: '/pages/zh-CN/integrations/', text: '集成' },
-          { prefix: '/pages/zh-CN/guide/', text: '指南' },
-          { prefix: '/pages/zh-CN/ui/', text: 'UI 组件' },
-          { prefix: '/pages/zh-CN/', text: '文档' },
+          { prefix: '/en/integrations/markdown-it-bi-directional-links', text: 'Markdown It Plugins: Bi-directional links' },
+          { prefix: '/en/integrations/markdown-it', text: 'Markdown It Plugins' },
+          { prefix: '/en/integrations/obsidian-plugin', text: 'Obsidian Plugins' },
+          { prefix: '/en/integrations/vitepress-plugin-inline-link-preview', text: 'VitePress Plugin: Inline Links Previewing' },
+          { prefix: '/en/integrations/vitepress-plugin-git-changelog', text: 'VitePress Plugin: Git-based page histories' },
+          { prefix: '/en/integrations/vitepress-plugin-thumbnail-hash', text: 'VitePress Plugin: Thumbnail hashing for images' },
+          { prefix: '/en/integrations/vitepress-plugin', text: 'VitePress Plugins' },
+          { prefix: '/en/integrations/', text: 'Integrations' },
+          { prefix: '/en/guide/', text: 'Guide' },
+          { prefix: '/en/ui/', text: 'UI Components' },
+          { prefix: '/en/', text: 'Documentations' },
+          { prefix: '/zh-CN/integrations/markdown-it-bi-directional-links', text: 'Markdown It 插件：双向链接' },
+          { prefix: '/zh-CN/integrations/markdown-it', text: 'Markdown It 插件' },
+          { prefix: '/zh-CN/integrations/obsidian-plugin', text: 'Obsidian 插件' },
+          { prefix: '/zh-CN/integrations/vitepress-plugin-inline-link-preview', text: 'VitePress 插件：行内链接预览' },
+          { prefix: '/zh-CN/integrations/vitepress-plugin-git-changelog', text: 'VitePress 插件：变更日志 及 文件历史' },
+          { prefix: '/zh-CN/integrations/vitepress-plugin-thumbnail-hash', text: 'VitePress 插件：缩略图模糊哈希生成' },
+          { prefix: '/zh-CN/integrations/vitepress-plugin', text: 'VitePress 插件' },
+          { prefix: '/zh-CN/integrations/', text: '集成' },
+          { prefix: '/zh-CN/guide/', text: '指南' },
+          { prefix: '/zh-CN/ui/', text: 'UI 组件' },
+          { prefix: '/zh-CN/', text: '文档' },
         ],
         fallbackWithFrontmatter: true,
       },

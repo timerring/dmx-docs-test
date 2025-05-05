@@ -24,4 +24,4 @@ pnpm add @nolebase/vitepress-plugin-index -D
 
 ## Documentation
 
-Please refer to [Index page](https://nolebase-integrations.ayaka.io/pages/en/integrations/vitepress-plugin-index/) for more information.
+Please refer to [Index page](https://nolebase-integrations.ayaka.io/en/integrations/vitepress-plugin-index/) for more information.

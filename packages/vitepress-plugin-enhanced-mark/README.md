@@ -24,4 +24,4 @@ pnpm add @nolebase/vitepress-plugin-enhanced-mark -D
 
 ## Documentation
 
-Please refer to [Enhanced `<mark>` element](https://nolebase-integrations.ayaka.io/pages/en/integrations/vitepress-plugin-enhanced-mark/) for more information.
+Please refer to [Enhanced `<mark>` element](https://nolebase-integrations.ayaka.io/en/integrations/vitepress-plugin-enhanced-mark/) for more information.

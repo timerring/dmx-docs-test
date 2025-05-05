@@ -24,4 +24,4 @@ pnpm add @nolebase/vitepress-plugin-og-image -D
 
 ## Documentation
 
-Please refer to [Previewing image generation](https://nolebase-integrations.ayaka.io/pages/en/integrations/vitepress-plugin-og-image/) for more information.
+Please refer to [Previewing image generation](https://nolebase-integrations.ayaka.io/en/integrations/vitepress-plugin-og-image/) for more information.

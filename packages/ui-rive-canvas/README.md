@@ -51,4 +51,4 @@ pnpm add @nolebase/ui-rive-canvas -D
 
 ## Documentation
 
-Please refer to [Rive Canvas](https://nolebase-integrations.ayaka.io/pages/en/ui/lazy-teleport-rive-canvas/) for more information.
+Please refer to [Rive Canvas](https://nolebase-integrations.ayaka.io/en/ui/lazy-teleport-rive-canvas/) for more information.

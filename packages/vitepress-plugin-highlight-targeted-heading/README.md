@@ -24,4 +24,4 @@ pnpm add @nolebase/vitepress-plugin-highlight-targeted-heading -D
 
 ## Documentation
 
-Please refer to [Blinking highlighted targeted heading](https://nolebase-integrations.ayaka.io/pages/en/integrations/vitepress-plugin-highlight-targeted-heading/) for more information.
+Please refer to [Blinking highlighted targeted heading](https://nolebase-integrations.ayaka.io/en/integrations/vitepress-plugin-highlight-targeted-heading/) for more information.

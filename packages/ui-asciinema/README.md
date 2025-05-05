@@ -49,4 +49,4 @@ pnpm add @nolebase/ui-asciinema -D
 
 ## Documentation
 
-Please refer to [Asciinema Player package's documentation site](https://nolebase-integrations.ayaka.io/pages/en/ui/asciinema-player/) for more information.
+Please refer to [Asciinema Player package's documentation site](https://nolebase-integrations.ayaka.io/en/ui/asciinema-player/) for more information.

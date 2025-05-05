@@ -22,4 +22,4 @@ pnpm add @nolebase/vitepress-plugin-breadcrumbs -D
 
 ## Documentation
 
-Please refer to [Breadcrumbs](https://nolebase-integrations.ayaka.io/pages/en/integrations/vitepress-plugin-breadcrumbs/) for more information.
+Please refer to [Breadcrumbs](https://nolebase-integrations.ayaka.io/en/integrations/vitepress-plugin-breadcrumbs/) for more information.

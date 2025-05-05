@@ -24,4 +24,4 @@ pnpm add @nolebase/vitepress-plugin-thumbnail-hash -D
 
 ## Documentation
 
-Please refer to [Thumbnail hashing for images](https://nolebase-integrations.ayaka.io/pages/en/integrations/vitepress-plugin-thumbnail-hash/) for more information.
+Please refer to [Thumbnail hashing for images](https://nolebase-integrations.ayaka.io/en/integrations/vitepress-plugin-thumbnail-hash/) for more information.
