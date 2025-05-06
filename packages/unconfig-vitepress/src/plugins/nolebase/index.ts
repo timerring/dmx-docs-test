@@ -140,23 +140,23 @@ const defaultOptions: NolebasePluginPresetOptions = {
             formatAsFrom: true,
             dateFnsLocaleName: 'enUS',
           },
-          {
-            key: 'wordsCount',
-            type: 'dynamic',
-            title: 'Word count',
-            options: {
-              type: 'wordsCount',
-            },
-          },
-          {
-            key: 'readingTime',
-            type: 'dynamic',
-            title: 'Reading time',
-            options: {
-              type: 'readingTime',
-              dateFnsLocaleName: 'enUS',
-            },
-          },
+          // {
+          //   key: 'wordsCount',
+          //   type: 'dynamic',
+          //   title: 'Word count',
+          //   options: {
+          //     type: 'wordsCount',
+          //   },
+          // },
+          // {
+          //   key: 'readingTime',
+          //   type: 'dynamic',
+          //   title: 'Reading time',
+          //   options: {
+          //     type: 'readingTime',
+          //     dateFnsLocaleName: 'enUS',
+          //   },
+          // },
         ],
         'zh-CN': [
           {
@@ -183,23 +183,23 @@ const defaultOptions: NolebasePluginPresetOptions = {
             formatAsFrom: true,
             dateFnsLocaleName: 'zhCN',
           },
-          {
-            key: 'wordsCount',
-            type: 'dynamic',
-            title: '字数',
-            options: {
-              type: 'wordsCount',
-            },
-          },
-          {
-            key: 'readingTime',
-            type: 'dynamic',
-            title: '阅读时间',
-            options: {
-              type: 'readingTime',
-              dateFnsLocaleName: 'zhCN',
-            },
-          },
+          // {
+          //   key: 'wordsCount',
+          //   type: 'dynamic',
+          //   title: '字数',
+          //   options: {
+          //     type: 'wordsCount',
+          //   },
+          // },
+          // {
+          //   key: 'readingTime',
+          //   type: 'dynamic',
+          //   title: '阅读时间',
+          //   options: {
+          //     type: 'readingTime',
+          //     dateFnsLocaleName: 'zhCN',
+          //   },
+          // },
         ],
       },
     },

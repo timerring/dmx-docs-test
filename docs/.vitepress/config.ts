@@ -30,9 +30,6 @@ export const sidebars: Record<string, DefaultTheme.SidebarItem[] | DefaultTheme.
     '/zh-CN/ui/': calculateSidebar(['zh-CN/ui'], undefined, { '/': 2 }),
   } as DefaultTheme.SidebarMulti,
 }
-// 添加调试代码
-// const enSidebar = calculateSidebar(['en/guide', 'en/integrations', 'en/releases'], undefined, { '/': 2 })
-console.log('Generated English sidebar:', sidebars['zh-CN'])
 function getVueProdHydrationMismatchDetailsFlag() {
   if (!env) {
     console.warn('WARNING: env is not available when trying to get Vue Prod Hydration Mismatch Details Flag')

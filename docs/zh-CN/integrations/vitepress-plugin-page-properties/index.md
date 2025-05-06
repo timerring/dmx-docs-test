@@ -1,14 +1,14 @@
 ---
 title: 页面属性
 category: 页面属性
-tags:
-  - 集成/VitePress-插件
-  - 集成/VitePress-插件/页面属性
-  - Markdown/frontmatter
-progress: 35
-url1: https://nolebase-integrations.ayaka.io/zh-CN/
-createdAt: 2024-01-23
-updatedAt: 2024-01-23
+# tags:
+#   - 集成/VitePress-插件
+#   - 集成/VitePress-插件/页面属性
+#   - Markdown/frontmatter
+# progress: 35
+# url1: https://nolebase-integrations.ayaka.io/zh-CN/
+# createdAt: 2024-01-23
+updatedAt: 2025-01-23
 ---
 
 <script setup>
