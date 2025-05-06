@@ -184,6 +184,9 @@ export default defineConfig({
       },
     },
   },
+  rewrites: {
+    '/': '/index.md',
+  },
   markdown: {
     codeTransformers: noTwoslash()
       ? []
