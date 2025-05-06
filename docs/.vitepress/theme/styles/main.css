@@ -126,3 +126,18 @@ html, body {
   color: white;
   background-color: #4b4b4b;
 }
+
+.custom-link {
+  color: #3eaf7c;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.custom-link:hover {
+  color: #4abf8a;
+  text-decoration: underline;
+}
+
+.strong-text {
+  color: #382f2f;
+}

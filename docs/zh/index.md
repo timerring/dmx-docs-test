@@ -22,22 +22,22 @@ hero:
 features:
   - icon: <span class="rive-canvas" data-rive-canvas="true" data-rive-src="/icons/rocket-emoji-animated.riv"></span>
     title: 超高并发与同步更新
-    details: 采用先进的架构设计与优化，轻松应对海量并发请求，适用于各类高流量场景。我们即时同步全球最新AI大模型，确保您始终掌握最新技术。
+    details: 采用先进的架构设计与优化，轻松应对<strong class="strong-text">海量并发请求</strong>，适用于各类高流量场景。我们<strong class="strong-text">即时同步全球最新AI大模型</strong>，确保您始终掌握最新技术。
   - icon: <img src="/icons/Technologist.png" alt="及时的技术支持">
     title: 一对一客服支持
-    details: 我们提供近乎7×24小时的一对一在线客服技术支持，无论是技术问题还是个性化需求，客服团队随时待命，确保迅速响应。
+    details: 我们提供近乎<strong class="strong-text">7×24小时的一对一在线客服技术支持</strong>，无论是技术问题还是个性化需求，客服团队随时待命，确保迅速响应。
   - icon: <img src="/icons/RMB.png" alt="人民币">
     title: 人民币计价全球大模型
-    details: 1 个 Key 直连畅通使用国内外领先大模型 API 服务，并且通过直接与大模型原厂合作，我们采用集中采购的方式获取资源，确保为您提供极具竞争力的价格。
+    details: 1 个 Key 直连畅通使用国内外领先大模型 API 服务，并且通过<strong class="strong-text">直接与大模型原厂合作</strong>，我们采用<strong class="strong-text">集中采购</strong>的方式获取资源，确保为您提供<a href="https://www.dmxapi.cn/pricing" class="custom-link">极具竞争力的价格</a>。
   - icon: <img src="/icons/Page.png" alt="开发票">
     title: 极其便捷的发票服务
-    details: 我们严格遵循商务流程，确保每一步操作都规范透明。从合同签署到发票开具，全程支持，保证每笔交易合法合规，为您提供最安心便捷的合作体验。
+    details: 我们严格遵循商务流程，确保每一步操作都规范透明。从<a href="https://www.aiqbh.com/openai-api.html#contact" class="custom-link">合同签署</a>到<a href="https://www.dmxapi.cn/fapiao" class="custom-link">发票开具</a>，<strong class="strong-text">全程支持</strong>，保证每笔交易合法合规，为您提供<strong class="strong-text">最安心便捷的合作体验</strong>。
   - icon: <img src="/icons/Locked.png" alt="数据安全">
     title: 数据安全
-    details: 我们专注于API聚合中转服务，不存储任何客户数据，绝对确保信息安全与隐私保护。选择我们，既可享受高效服务，又能获得数据安全保障。
+    details: 我们专注于 API 聚合中转服务，<strong class="strong-text">不存储任何客户数据</strong>，绝对确保信息安全与隐私保护。选择我们，既可享受高效服务，又能获得数据安全保障。
   - icon: <img src="/icons/Handshake.png" alt="握手">
     title: 服务承诺
-    details: 我们确保向客户提供真实、可靠的模型服务，维护客户的信任与满意度。
+    details: DMXAPI 始终秉持<strong class="strong-text">诚信与专业</strong>的原则，我们确保向客户提供真实、可靠的模型服务，维护客户的信任与满意度，<a href="https://dmxapi.cn/chengnuo.html" class="custom-link">服务与价格承诺</a>。
 nolebase:
   index: false
 
