@@ -2,126 +2,141 @@
   "hash": "ac9767b2",
   "configHash": "b13c894f",
   "lockfileHash": "56a83e89",
-  "browserHash": "a3978e3e",
+  "browserHash": "b9178f67",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/.pnpm/vue@3.5.13_typescript@5.8.3/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "c917eb40",
+      "fileHash": "c8e1df7e",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.7.1/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "726d8e06",
+      "fileHash": "607cb827",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/.pnpm/@vueuse+core@12.8.2_typescript@5.8.3/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "7b779639",
+      "fileHash": "a07e7662",
       "needsInterop": false
     },
     "mermaid": {
       "src": "../../../../node_modules/.pnpm/mermaid@11.6.0/node_modules/mermaid/dist/mermaid.core.mjs",
       "file": "mermaid.js",
-      "fileHash": "b7a25a9b",
+      "fileHash": "b8f4b785",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../../node_modules/.pnpm/@vueuse+integrations@12.5.0_focus-trap@7.6.4_typescript@5.8.3/node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "fac4a804",
+      "fileHash": "0e7d5e55",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/.pnpm/mark.js@8.11.1/node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "05a64a3e",
+      "fileHash": "847b585c",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../node_modules/.pnpm/minisearch@7.1.1/node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "c773ef7e",
+      "fileHash": "88b05bd1",
       "needsInterop": false
     },
     "@shikijs/vitepress-twoslash/client": {
       "src": "../../../../node_modules/.pnpm/@shikijs+vitepress-twoslash@2.5.0_@nuxt+kit@3.13.2_magicast@0.3.5_rollup@4.40.0__typescript@5.8.3/node_modules/@shikijs/vitepress-twoslash/dist/client.mjs",
       "file": "@shikijs_vitepress-twoslash_client.js",
-      "fileHash": "3a3b562f",
+      "fileHash": "efaab78e",
       "needsInterop": false
     },
     "@vueuse/motion": {
       "src": "../../../../node_modules/.pnpm/@vueuse+motion@3.0.3_magicast@0.3.5_rollup@4.40.0_vue@3.5.13_typescript@5.8.3_/node_modules/@vueuse/motion/dist/index.mjs",
       "file": "@vueuse_motion.js",
-      "fileHash": "ea3b4155",
+      "fileHash": "d5c61e24",
       "needsInterop": false
     },
     "@vueuse/core": {
       "src": "../../../../node_modules/.pnpm/@vueuse+core@13.1.0_vue@3.5.13_typescript@5.8.3_/node_modules/@vueuse/core/index.mjs",
       "file": "@vueuse_core.js",
-      "fileHash": "7a9ad87d",
+      "fileHash": "e278c50e",
       "needsInterop": false
     },
     "thumbhash": {
       "src": "../../../../node_modules/.pnpm/thumbhash@0.1.1/node_modules/thumbhash/thumbhash.js",
       "file": "thumbhash.js",
-      "fileHash": "a94b4242",
+      "fileHash": "e6b9e66e",
       "needsInterop": false
     },
     "unlazy/thumbhash": {
       "src": "../../../../node_modules/.pnpm/unlazy@0.12.4/node_modules/unlazy/dist/thumbhash.mjs",
       "file": "unlazy_thumbhash.js",
-      "fileHash": "05f89784",
+      "fileHash": "85d76716",
       "needsInterop": false
     },
     "date-fns": {
       "src": "../../../../node_modules/.pnpm/date-fns@4.1.0/node_modules/date-fns/index.js",
       "file": "date-fns.js",
-      "fileHash": "3238d8a8",
+      "fileHash": "6ac9da54",
       "needsInterop": false
     },
     "defu": {
       "src": "../../../../node_modules/.pnpm/defu@6.1.4/node_modules/defu/dist/defu.mjs",
       "file": "defu.js",
-      "fileHash": "693e3c5d",
+      "fileHash": "b7c5ba3d",
       "needsInterop": false
     },
     "@unlazy/vue/components": {
       "src": "../../../../node_modules/.pnpm/@unlazy+vue@0.12.4/node_modules/@unlazy/vue/dist/components/index.mjs",
       "file": "@unlazy_vue_components.js",
-      "fileHash": "3d57fd92",
+      "fileHash": "2f39c385",
       "needsInterop": false
     },
     "d3": {
       "src": "../../../../node_modules/.pnpm/d3@7.9.0/node_modules/d3/src/index.js",
       "file": "d3.js",
-      "fileHash": "14202b34",
+      "fileHash": "4dcbc32e",
       "needsInterop": false
     },
     "date-fns/locale": {
       "src": "../../../../node_modules/.pnpm/date-fns@4.1.0/node_modules/date-fns/locale.js",
       "file": "date-fns_locale.js",
-      "fileHash": "65ace1ce",
+      "fileHash": "de968ba7",
       "needsInterop": false
     },
     "uncrypto": {
       "src": "../../../../node_modules/.pnpm/uncrypto@0.1.3/node_modules/uncrypto/dist/crypto.web.mjs",
       "file": "uncrypto.js",
-      "fileHash": "64eb8f30",
+      "fileHash": "d8079be8",
       "needsInterop": false
+    },
+    "@rive-app/canvas": {
+      "src": "../../../../node_modules/.pnpm/@rive-app+canvas@2.27.1/node_modules/@rive-app/canvas/rive.js",
+      "file": "@rive-app_canvas.js",
+      "fileHash": "5072d5d7",
+      "needsInterop": true
     }
   },
   "chunks": {
-    "blockDiagram-JOT3LUYC-VQ2KIGUJ": {
-      "file": "blockDiagram-JOT3LUYC-VQ2KIGUJ.js"
+    "diagram-SSKATNLV-VO4J356U": {
+      "file": "diagram-SSKATNLV-VO4J356U.js"
     },
-    "architectureDiagram-IEHRJDOE-3NQMT2DK": {
-      "file": "architectureDiagram-IEHRJDOE-3NQMT2DK.js"
+    "blockDiagram-JOT3LUYC-T7PNZIDD": {
+      "file": "blockDiagram-JOT3LUYC-T7PNZIDD.js"
     },
-    "stateDiagram-v2-YXO3MK2T-R3ZWAS66": {
-      "file": "stateDiagram-v2-YXO3MK2T-R3ZWAS66.js"
+    "architectureDiagram-IEHRJDOE-K2VAPUEA": {
+      "file": "architectureDiagram-IEHRJDOE-K2VAPUEA.js"
+    },
+    "stateDiagram-DGXRK772-PYBXABXR": {
+      "file": "stateDiagram-DGXRK772-PYBXABXR.js"
+    },
+    "stateDiagram-v2-YXO3MK2T-UIHFGYTC": {
+      "file": "stateDiagram-v2-YXO3MK2T-UIHFGYTC.js"
+    },
+    "chunk-APODIZPO": {
+      "file": "chunk-APODIZPO.js"
     },
     "journeyDiagram-U35MCT3I-OT5A62SG": {
       "file": "journeyDiagram-U35MCT3I-OT5A62SG.js"
@@ -141,14 +156,14 @@
     "sankeyDiagram-QLVOVGJD-AF7VFCSI": {
       "file": "sankeyDiagram-QLVOVGJD-AF7VFCSI.js"
     },
-    "diagram-VNBRO52H-TCJJ5LXO": {
-      "file": "diagram-VNBRO52H-TCJJ5LXO.js"
+    "diagram-VNBRO52H-YEYWCZO4": {
+      "file": "diagram-VNBRO52H-YEYWCZO4.js"
     },
-    "diagram-SSKATNLV-I3Q4DI4O": {
-      "file": "diagram-SSKATNLV-I3Q4DI4O.js"
+    "infoDiagram-PH2N3AL5-64XXPOK5": {
+      "file": "infoDiagram-PH2N3AL5-64XXPOK5.js"
     },
-    "pieDiagram-IB7DONF6-7ROP24US": {
-      "file": "pieDiagram-IB7DONF6-7ROP24US.js"
+    "pieDiagram-IB7DONF6-TAPCBAJ5": {
+      "file": "pieDiagram-IB7DONF6-TAPCBAJ5.js"
     },
     "quadrantDiagram-7GDLP6J5-KXKVTPO5": {
       "file": "quadrantDiagram-7GDLP6J5-KXKVTPO5.js"
@@ -156,26 +171,23 @@
     "xychartDiagram-VJFVF3MP-U646E7JC": {
       "file": "xychartDiagram-VJFVF3MP-U646E7JC.js"
     },
-    "requirementDiagram-KVF5MWMF-G5FMRE7J": {
-      "file": "requirementDiagram-KVF5MWMF-G5FMRE7J.js"
+    "requirementDiagram-KVF5MWMF-UV44RVSH": {
+      "file": "requirementDiagram-KVF5MWMF-UV44RVSH.js"
     },
     "sequenceDiagram-X6HHIX6F-KGVCDFED": {
       "file": "sequenceDiagram-X6HHIX6F-KGVCDFED.js"
     },
-    "classDiagram-GIVACNV2-VG4WGUQL": {
-      "file": "classDiagram-GIVACNV2-VG4WGUQL.js"
+    "classDiagram-GIVACNV2-ZIILZBUN": {
+      "file": "classDiagram-GIVACNV2-ZIILZBUN.js"
     },
-    "classDiagram-v2-COTLJTTW-YBY7D6U5": {
-      "file": "classDiagram-v2-COTLJTTW-YBY7D6U5.js"
+    "classDiagram-v2-COTLJTTW-XC53Q72C": {
+      "file": "classDiagram-v2-COTLJTTW-XC53Q72C.js"
     },
-    "chunk-G6D4GUAY": {
-      "file": "chunk-G6D4GUAY.js"
+    "chunk-I56GMRQ2": {
+      "file": "chunk-I56GMRQ2.js"
     },
-    "stateDiagram-DGXRK772-SOW2Y4D4": {
-      "file": "stateDiagram-DGXRK772-SOW2Y4D4.js"
-    },
-    "chunk-VL7KJMX7": {
-      "file": "chunk-VL7KJMX7.js"
+    "info-4N47QTOZ-MISAOH6F": {
+      "file": "info-4N47QTOZ-MISAOH6F.js"
     },
     "packet-KVYON367-L3ER4VLZ": {
       "file": "packet-KVYON367-L3ER4VLZ.js"
@@ -192,23 +204,20 @@
     "radar-MK3ICKWK-MRFCVSGW": {
       "file": "radar-MK3ICKWK-MRFCVSGW.js"
     },
-    "gitGraphDiagram-7IBYFJ6S-XTCGRKUR": {
-      "file": "gitGraphDiagram-7IBYFJ6S-XTCGRKUR.js"
+    "gitGraphDiagram-7IBYFJ6S-2ZSGR6SD": {
+      "file": "gitGraphDiagram-7IBYFJ6S-2ZSGR6SD.js"
     },
     "chunk-Q72LM7N2": {
       "file": "chunk-Q72LM7N2.js"
     },
+    "chunk-363XWQF2": {
+      "file": "chunk-363XWQF2.js"
+    },
     "chunk-CXP3I7Q5": {
       "file": "chunk-CXP3I7Q5.js"
     },
-    "ganttDiagram-APWFNJXF-MAOUBZ5K": {
-      "file": "ganttDiagram-APWFNJXF-MAOUBZ5K.js"
-    },
-    "infoDiagram-PH2N3AL5-LTF5WBRE": {
-      "file": "infoDiagram-PH2N3AL5-LTF5WBRE.js"
-    },
-    "chunk-V765KREH": {
-      "file": "chunk-V765KREH.js"
+    "chunk-VMLOAXVQ": {
+      "file": "chunk-VMLOAXVQ.js"
     },
     "chunk-6I6RZ7U4": {
       "file": "chunk-6I6RZ7U4.js"
@@ -225,11 +234,20 @@
     "chunk-PPXRUUTR": {
       "file": "chunk-PPXRUUTR.js"
     },
+    "chunk-4WR75J6B": {
+      "file": "chunk-4WR75J6B.js"
+    },
+    "ganttDiagram-APWFNJXF-MAOUBZ5K": {
+      "file": "ganttDiagram-APWFNJXF-MAOUBZ5K.js"
+    },
+    "chunk-LH66CWDC": {
+      "file": "chunk-LH66CWDC.js"
+    },
     "katex-KUTW2HDN": {
       "file": "katex-KUTW2HDN.js"
     },
-    "dagre-OKDRZEBW-7BEM5SLE": {
-      "file": "dagre-OKDRZEBW-7BEM5SLE.js"
+    "dagre-OKDRZEBW-UJSKN6ZR": {
+      "file": "dagre-OKDRZEBW-UJSKN6ZR.js"
     },
     "chunk-XCOKK632": {
       "file": "chunk-XCOKK632.js"
@@ -237,32 +255,29 @@
     "chunk-54ZLLJCZ": {
       "file": "chunk-54ZLLJCZ.js"
     },
+    "chunk-MPQNICG7": {
+      "file": "chunk-MPQNICG7.js"
+    },
     "c4Diagram-VJAJSXHY-WQLXOCX3": {
       "file": "c4Diagram-VJAJSXHY-WQLXOCX3.js"
     },
     "chunk-PNYYCFIH": {
       "file": "chunk-PNYYCFIH.js"
     },
-    "flowDiagram-4HSFHLVR-FWAD3JMJ": {
-      "file": "flowDiagram-4HSFHLVR-FWAD3JMJ.js"
+    "flowDiagram-4HSFHLVR-JOQ6J7XT": {
+      "file": "flowDiagram-4HSFHLVR-JOQ6J7XT.js"
     },
-    "erDiagram-Q7BY3M3F-ARS7XCM7": {
-      "file": "erDiagram-Q7BY3M3F-ARS7XCM7.js"
+    "erDiagram-Q7BY3M3F-HHIA3S2N": {
+      "file": "erDiagram-Q7BY3M3F-HHIA3S2N.js"
     },
     "chunk-H54MYXAW": {
       "file": "chunk-H54MYXAW.js"
     },
-    "info-4N47QTOZ-MISAOH6F": {
-      "file": "info-4N47QTOZ-MISAOH6F.js"
+    "chunk-7WGTA6GJ": {
+      "file": "chunk-7WGTA6GJ.js"
     },
-    "chunk-VMLOAXVQ": {
-      "file": "chunk-VMLOAXVQ.js"
-    },
-    "chunk-4WR75J6B": {
-      "file": "chunk-4WR75J6B.js"
-    },
-    "chunk-MPQNICG7": {
-      "file": "chunk-MPQNICG7.js"
+    "chunk-E45RIW2X": {
+      "file": "chunk-E45RIW2X.js"
     },
     "chunk-5QDAVSZM": {
       "file": "chunk-5QDAVSZM.js"
@@ -270,11 +285,14 @@
     "chunk-NALLTTGJ": {
       "file": "chunk-NALLTTGJ.js"
     },
+    "chunk-CTH6JV6Q": {
+      "file": "chunk-CTH6JV6Q.js"
+    },
     "chunk-D6L5VWRN": {
       "file": "chunk-D6L5VWRN.js"
     },
-    "chunk-WE7Z7IPN": {
-      "file": "chunk-WE7Z7IPN.js"
+    "chunk-EV5ZGUIL": {
+      "file": "chunk-EV5ZGUIL.js"
     },
     "chunk-2WBTE7ZJ": {
       "file": "chunk-2WBTE7ZJ.js"
@@ -303,26 +321,14 @@
     "chunk-XW3B7D5S": {
       "file": "chunk-XW3B7D5S.js"
     },
-    "chunk-CTH6JV6Q": {
-      "file": "chunk-CTH6JV6Q.js"
-    },
     "chunk-JOYCGXNR": {
       "file": "chunk-JOYCGXNR.js"
-    },
-    "chunk-7WGTA6GJ": {
-      "file": "chunk-7WGTA6GJ.js"
-    },
-    "chunk-QHC3C7AY": {
-      "file": "chunk-QHC3C7AY.js"
-    },
-    "chunk-E45RIW2X": {
-      "file": "chunk-E45RIW2X.js"
     },
     "chunk-FL5TUDPJ": {
       "file": "chunk-FL5TUDPJ.js"
     },
-    "chunk-HJXVWD6M": {
-      "file": "chunk-HJXVWD6M.js"
+    "chunk-QHC3C7AY": {
+      "file": "chunk-QHC3C7AY.js"
     },
     "chunk-FDBJFBLO": {
       "file": "chunk-FDBJFBLO.js"
