@@ -45,8 +45,8 @@ export function GitChangelogMarkdownSection(options?: GitChangelogMarkdownSectio
       if ('gitChangelog' in parsedMarkdownContent.data && !parsedMarkdownContent.data.gitChangelog)
         return null
 
-      if (!options?.sections?.disableContributors)
-        code = TemplateContributors(code)
+      // if (!options?.sections?.disableContributors)
+      //   code = TemplateContributors(code)
       if (!options?.sections?.disableChangelog)
         code = TemplateChangelog(code)
 

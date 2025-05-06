@@ -23,10 +23,6 @@
   <a href="https://t.me/+6WKTUzWijf1kMzFl"><img src="https://img.shields.io/badge/Group-%235AA9E6?logo=telegram&label=Telegram" /></a>
 </p>
 
-# [Nólëbase](https://github.com/nolebase/nolebase) Integrations
-
-[简体中文](./README.zh-CN.md)
-
 ---
 
 A collection of diverse documentation engineering tools.
@@ -82,19 +78,3 @@ If you use [`@antfu/ni`](https://github.com/antfu/ni), you can also use the foll
 ```shell
 nr docs:build
 ```
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=nolebase/integrations&type=Date)](https://star-history.com/#nolebase/integrations&Date)
-
-## Project Status
-
-![Repobeats analytics image](https://repobeats.axiom.co/api/embed/422f7e142085eeb0c7ef854046101bf90927de91.svg "Repobeats analytics image")
-
-## Contributors
-
-Thanks to all the contributors!
-
-[![contributors](https://contrib.rocks/image?repo=nolebase/integrations)](https://github.com/nolebase/integrations/graphs/contributors)
-
-### Written with ♥

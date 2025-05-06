@@ -158,7 +158,7 @@ const defaultOptions: NolebasePluginPresetOptions = {
           //   },
           // },
         ],
-        'zh-CN': [
+        'zh': [
           {
             key: 'tags',
             type: 'tags',
