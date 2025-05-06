@@ -25,7 +25,7 @@ gitChangelog: false
 背景深色为可以修改的参数，非必选参数已经注释，可以按照自己的需求启用。
 :::
 
-::: code-group
+
 
 ```python[python]{6-7,19-25}
 import http.client
@@ -46,13 +46,13 @@ def kling_generate_image():
         task_id: 生成任务的 id
     """
     payload = json.dumps({
-    "model_name": "kling-v1-5", # [必选] string, 模型名称 可选择 kling-v1-5 或 kling-v1
-    "prompt": "生成一张袋鼠的照片，手里拿着一个写着'DMXAPI'的牌子", # [必选] string, 正向文本提示词
-    # "negative_prompt": "", # string, 负向文本提示词
-    # "output_format": "png", # string, 输出格式：png 或 jpg
+    "model_name": "kling-v1-5", # [必选]模型名称 可选择 kling-v1-5 或 kling-v1
+    "prompt": "生成一张袋鼠的照片，手里拿着一个写着'DMXAPI'的牌子", # [必选]文本提示词
+    # "negative_prompt": "", # 负向文本提示词
+    # "output_format": "png", # 输出格式：png 或 jpg
     # "n": 1, # int, 生成数量 [1, 9]
-    # "aspect_ratio": "16:9", # string, 输出比例：16:9 或 9:16 或 1:1 或 4:3 或 3:4 或 3:2 或 2:3
-    # "callback_url": "url", # string, 回调地址，可以用于 webhook 等通知场景
+    # "aspect_ratio": "16:9", # 输出比例：16:9, 9:16, 1:1, 4:3, 3:4, 3:2, 2:3
+    # "callback_url": "url", # 回调地址，可以用于 webhook 等通知场景
     })
     headers = {
     'Authorization': f'Bearer {DMX_API_TOKEN}',
@@ -95,12 +95,14 @@ def generate_image():
     返回参数:
         image_url: 图像 url
     """
-    task_id = kling_generate_image() # 调用生成图像 api 提交图像生成任务，返回获取 task_id。
+    # 调用生成图像 api 提交图像生成任务，返回获取 task_id。
+    task_id = kling_generate_image() 
     start_time = time.time()
     timeout = 60 # 队列等待超时时间
 
     while True:
-        image_url = query_kling_image_url(task_id) # 根据 task_id 调用查询图像api 查看图像生成任务是否完成。
+        # 根据 task_id 调用查询图像api 查看图像生成任务是否完成。
+        image_url = query_kling_image_url(task_id) 
         if image_url is not None:
             return image_url
 
@@ -114,24 +116,6 @@ def generate_image():
 if __name__ == "__main__":
     print(generate_image())
 ```
-
-```sh [shell]
-
-```
-
-```go [go]
-
-```
-
-```js [js]
-
-```
-
-```java [java]
-
-```
-
-:::
 
 ## 返回结果
 
