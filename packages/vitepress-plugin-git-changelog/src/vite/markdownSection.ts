@@ -55,12 +55,12 @@ export function GitChangelogMarkdownSection(options?: GitChangelogMarkdownSectio
   }
 }
 
-function TemplateContributors(code: string) {
-  return `${code}
+// function TemplateContributors(code: string) {
+//   return `${code}
 
-<NolebaseGitContributors />
-`
-}
+// <NolebaseGitContributors />
+// `
+// }
 
 function TemplateChangelog(code: string) {
   return `${code}

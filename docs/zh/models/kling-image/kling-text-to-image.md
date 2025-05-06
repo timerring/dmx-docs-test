@@ -147,7 +147,6 @@ https://cdn.klingai.com/bs2/upload-kling-api/6567899185/image/CjikMGgHQaYAAAAAA1
 
 ```mermaid
 flowchart TD
-subgraph generate_image函数
 J[调用kling_generate_image获取task_id] --> K[开始轮询任务状态]
 K --> L[调用query_kling_image_url]
 L --> M{获取到图像URL?}
@@ -156,7 +155,4 @@ N -->|否| O[等待1秒]
 O --> L
 N -->|是| P[返回超时错误]
 M -->|是| Q[返回图像URL]
-end
 ```
-
-![](https://cdn.jsdelivr.net/gh/timerring/scratchpad2023/2024/2025-05-05-19-23-03.png)

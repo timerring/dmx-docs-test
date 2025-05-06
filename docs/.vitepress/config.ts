@@ -4,7 +4,6 @@ import { argv, cwd, env } from 'node:process'
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links'
 import { UnlazyImages } from '@nolebase/markdown-it-unlazy-img'
 import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
-
 import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta/vitepress'
 import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image/vitepress'
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
@@ -12,6 +11,7 @@ import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
 import { gray } from 'colorette'
 import MarkdownItFootnote from 'markdown-it-footnote'
 import { defineConfig } from 'vitepress'
+import { MermaidMarkdown, MermaidPlugin } from 'vitepress-plugin-mermaid'
 
 import packageJSON from '../../package.json'
 import { compilerOptions } from './twoslashConfig'
@@ -21,11 +21,11 @@ function noTwoslash() {
 }
 
 export const sidebars: Record<string, DefaultTheme.SidebarItem[] | DefaultTheme.SidebarMulti> = {
-  'en': {
+  en: {
     '/en/': calculateSidebar(['en/guide', 'en/integrations', 'en/releases'], undefined, { '/': 4 }),
     '/en/ui/': calculateSidebar(['en/ui'], undefined, { '/': 2 }),
   } as DefaultTheme.SidebarMulti,
-  'zh': {
+  zh: {
     '/zh/': calculateSidebar(['zh/guide', 'zh/knowledge', 'zh/models', 'zh/integrations', 'zh/release'], undefined, { '/': 2 }),
     '/zh/ui/': calculateSidebar(['zh/ui'], undefined, { '/': 2 }),
   } as DefaultTheme.SidebarMulti,
@@ -44,6 +44,13 @@ export default defineConfig({
   vite: {
     define: {
       __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: getVueProdHydrationMismatchDetailsFlag(),
+    },
+    plugins: [MermaidPlugin()], // add plugins
+    optimizeDeps: { // include mermaid
+      include: ['mermaid'],
+    },
+    ssr: {
+      noExternal: ['mermaid'],
     },
   },
   vue: {
@@ -83,7 +90,7 @@ export default defineConfig({
       provider: 'local',
       options: {
         locales: {
-          'zh': {
+          zh: {
             translations: {
               button: {
                 buttonText: '搜索文档',
@@ -105,7 +112,7 @@ export default defineConfig({
   },
   buildConcurrency: 1000,
   locales: {
-    'en': {
+    en: {
       label: 'English',
       lang: 'en',
       link: '/en/',
@@ -141,10 +148,10 @@ export default defineConfig({
             ],
           },
         ],
-        sidebar: sidebars['en'],
+        sidebar: sidebars.en,
       },
     },
-    'root': {
+    root: {
       label: '简体中文',
       lang: 'zh',
       link: '/zh/',
@@ -180,7 +187,7 @@ export default defineConfig({
             ],
           },
         ],
-        sidebar: sidebars['zh'],
+        sidebar: sidebars.zh,
       },
     },
   },
@@ -210,6 +217,7 @@ export default defineConfig({
     config(md) {
       md.use(MarkdownItFootnote)
       md.use(InlineLinkPreviewElementTransform)
+      md.use(MermaidMarkdown)
     },
   },
   async transformHead(context) {
