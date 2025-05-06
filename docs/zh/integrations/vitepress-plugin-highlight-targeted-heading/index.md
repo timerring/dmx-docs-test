@@ -13,7 +13,7 @@ import packageJSON from '~/packages/vitepress-plugin-highlight-targeted-heading/
 
 可以试着点击下面的两个链接，然后观察标题部分发生的变化：
 
-- [跨页面高亮目标标题](/zh-CN/guide/getting-started.html#getting-started)
+- [跨页面高亮目标标题](/zh/guide/getting-started.html#getting-started)
 - [页面内高亮目标标题](#如何使用)
 
 <video controls muted>
@@ -88,6 +88,8 @@ yarn add @nolebase/vitepress-plugin-highlight-targeted-heading -D
       - [添加 Vite 相关的配置](#添加-vite-相关的配置)
       - [添加 VitePress 主题相关的配置](#添加-vitepress-主题相关的配置)
   - [如何使用](#如何使用)
+  - [错误排查](#错误排查)
+    - [遭遇了 `Cannot find module ... or its corresponding type declarations` 错误？](#遭遇了-cannot-find-module--or-its-corresponding-type-declarations-错误)
 
 #### 添加 Vite 相关的配置
 

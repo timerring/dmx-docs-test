@@ -8,11 +8,11 @@ sidebarTitle: 配置 Vite 插件
 
 ::: danger 弃用 `GitChangelogMarkdownSection` 插件选项的 `locales` 字段
 
-我们将 `locales` 配置迁移到了 [配置 UI](/zh-CN/integrations/vitepress-plugin-git-changelog/configure-ui#locales-options)。
+我们将 `locales` 配置迁移到了 [配置 UI](/zh/integrations/vitepress-plugin-git-changelog/configure-ui#locales-options)。
 
 您不再需要为 `GitChangelogMarkdownSection` 插件设置 `locales`。
 
-有关具体的迁移信息，请参阅 [自 v1 迁移至 v2](/zh-CN/releases/migrations/v1-to-v2)。
+有关具体的迁移信息，请参阅 [自 v1 迁移至 v2](/zh/releases/migrations/v1-to-v2)。
 
 :::
 

@@ -6,7 +6,7 @@ nolebase:
 ---
 
 <script setup>
-import { data } from '../../data/zh-CN/recentUpdates.data'
+import { data } from '../../data/zh/recentUpdates.data'
 </script>
 
 <NolebaseRecentUpdates :data="data" />

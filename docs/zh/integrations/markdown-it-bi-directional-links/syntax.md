@@ -71,7 +71,7 @@ document.querySelector('#为什么')
 
 当您想要在当页面打开并加载后跳转到特定部分时，这种功能就非常有用了。
 
-搭配使用我们提供的 [闪烁高亮当前的目标标题](/zh-CN/integrations/vitepress-plugin-highlight-targeted-heading/) VitePress 插件时，hash tag 选中的标题（双链指向的标题）将在页面加载后以闪烁的效果突出显示，从而增强能力和阅读体验。
+搭配使用我们提供的 [闪烁高亮当前的目标标题](/zh/integrations/vitepress-plugin-highlight-targeted-heading/) VitePress 插件时，hash tag 选中的标题（双链指向的标题）将在页面加载后以闪烁的效果突出显示，从而增强能力和阅读体验。
 
 :::
 
@@ -111,7 +111,7 @@ document.querySelector('#为什么')
 
 效果
 
-[[zh-CN/integrations/markdown-it-bi-directional-links/双向链接示例页面]]
+[[zh/integrations/markdown-it-bi-directional-links/双向链接示例页面]]
 
 ### 显示图片
 
@@ -159,36 +159,36 @@ document.querySelector('#为什么')
 #### 自定义文案中使用 Markdown 语法
 
 ```markdown
-[[zh-CN/integrations/markdown-it-bi-directional-links/双向链接示例页面|`代码块（前缀）` 中间的内容 `代码块（后缀）`]]
+[[zh/integrations/markdown-it-bi-directional-links/双向链接示例页面|`代码块（前缀）` 中间的内容 `代码块（后缀）`]]
 
-[[zh-CN/integrations/markdown-it-bi-directional-links/双向链接示例页面|**粗体（前缀）** 中间的内容 **粗体（后缀）**]]
+[[zh/integrations/markdown-it-bi-directional-links/双向链接示例页面|**粗体（前缀）** 中间的内容 **粗体（后缀）**]]
 
-[[zh-CN/integrations/markdown-it-bi-directional-links/双向链接示例页面|*斜体（前缀）* 中间的内容 *斜体（后缀）*]]
+[[zh/integrations/markdown-it-bi-directional-links/双向链接示例页面|*斜体（前缀）* 中间的内容 *斜体（后缀）*]]
 
-[[zh-CN/integrations/markdown-it-bi-directional-links/双向链接示例页面|~~删除线（前缀）~~ 中间的内容 ~~删除线（后缀）~~]]
+[[zh/integrations/markdown-it-bi-directional-links/双向链接示例页面|~~删除线（前缀）~~ 中间的内容 ~~删除线（后缀）~~]]
 ```
 
 效果
 
-[[zh-CN/integrations/markdown-it-bi-directional-links/双向链接示例页面|`代码块（前缀）` 中间的内容 `代码块（后缀）`]]
+[[zh/integrations/markdown-it-bi-directional-links/双向链接示例页面|`代码块（前缀）` 中间的内容 `代码块（后缀）`]]
 
-[[zh-CN/integrations/markdown-it-bi-directional-links/双向链接示例页面|**粗体（前缀）** 中间的内容 **粗体（后缀）**]]
+[[zh/integrations/markdown-it-bi-directional-links/双向链接示例页面|**粗体（前缀）** 中间的内容 **粗体（后缀）**]]
 
-[[zh-CN/integrations/markdown-it-bi-directional-links/双向链接示例页面|*斜体（前缀）* 中间的内容 *斜体（后缀）*]]
+[[zh/integrations/markdown-it-bi-directional-links/双向链接示例页面|*斜体（前缀）* 中间的内容 *斜体（后缀）*]]
 
-[[zh-CN/integrations/markdown-it-bi-directional-links/双向链接示例页面|~~删除线（前缀）~~ 中间的内容 ~~删除线（后缀）~~]]
+[[zh/integrations/markdown-it-bi-directional-links/双向链接示例页面|~~删除线（前缀）~~ 中间的内容 ~~删除线（后缀）~~]]
 
 #### 自定义文案中使用 HTML 语法
 
 ```markdown
-[[zh-CN/integrations/markdown-it-bi-directional-links/双向链接示例页面|<span style="color: red;">自定义 HTML</span>]]
+[[zh/integrations/markdown-it-bi-directional-links/双向链接示例页面|<span style="color: red;">自定义 HTML</span>]]
 
-[[zh-CN/integrations/markdown-it-bi-directional-links/双向链接示例页面|<span style="color: red;">自定义 HTML</span> 中间的内容 <span style="color: blue;">自定义 HTML</span>]]
+[[zh/integrations/markdown-it-bi-directional-links/双向链接示例页面|<span style="color: red;">自定义 HTML</span> 中间的内容 <span style="color: blue;">自定义 HTML</span>]]
 ```
 
-[[zh-CN/integrations/markdown-it-bi-directional-links/双向链接示例页面|<span style="color: red;">自定义 HTML</span>]]
+[[zh/integrations/markdown-it-bi-directional-links/双向链接示例页面|<span style="color: red;">自定义 HTML</span>]]
 
-[[zh-CN/integrations/markdown-it-bi-directional-links/双向链接示例页面|<span style="color: red;">自定义 HTML</span> 中间的内容 <span style="color: blue;">自定义 HTML</span>]]
+[[zh/integrations/markdown-it-bi-directional-links/双向链接示例页面|<span style="color: red;">自定义 HTML</span> 中间的内容 <span style="color: blue;">自定义 HTML</span>]]
 
 ### 兼容 [`markdown-it-attrs`](https://github.com/arve0/markdown-it-attrs) 修改 HTML 属性（Attribute）
 
@@ -219,42 +219,42 @@ document.querySelector('#为什么')
 ### 图片配合绝对路径
 
 ```markdown
-![[zh-CN/integrations/markdown-it-bi-directional-links/images/海滩铁轨 同名图片.jpg]]
+![[zh/integrations/markdown-it-bi-directional-links/images/海滩铁轨 同名图片.jpg]]
 ```
 
 效果
 
-![[zh-CN/integrations/markdown-it-bi-directional-links/images/海滩铁轨 同名图片.jpg]]
+![[zh/integrations/markdown-it-bi-directional-links/images/海滩铁轨 同名图片.jpg]]
 
 它与同名图片是可以区分的：
 
 ```markdown
-![[zh-CN/integrations/markdown-it-bi-directional-links/images/same-name/海滩铁轨 同名图片.jpg]]
+![[zh/integrations/markdown-it-bi-directional-links/images/same-name/海滩铁轨 同名图片.jpg]]
 ```
 
 效果
 
-![[zh-CN/integrations/markdown-it-bi-directional-links/images/same-name/海滩铁轨 同名图片.jpg]]
+![[zh/integrations/markdown-it-bi-directional-links/images/same-name/海滩铁轨 同名图片.jpg]]
 
 ### 音频配合绝对路径
 
 ```markdown
-![[zh-CN/integrations/markdown-it-bi-directional-links/audios/鼓掌声.mp3]]
+![[zh/integrations/markdown-it-bi-directional-links/audios/鼓掌声.mp3]]
 ```
 
 效果
 
-![[zh-CN/integrations/markdown-it-bi-directional-links/audios/鼓掌声.mp3]]
+![[zh/integrations/markdown-it-bi-directional-links/audios/鼓掌声.mp3]]
 
 ### 视频配合绝对路径
 
 ```markdown
-![[zh-CN/integrations/markdown-it-bi-directional-links/videos/大兔子从兔窝中钻出.mp4]]
+![[zh/integrations/markdown-it-bi-directional-links/videos/大兔子从兔窝中钻出.mp4]]
 ```
 
 效果
 
-![[zh-CN/integrations/markdown-it-bi-directional-links/videos/大兔子从兔窝中钻出.mp4]]
+![[zh/integrations/markdown-it-bi-directional-links/videos/大兔子从兔窝中钻出.mp4]]
 
 ### 绝对路径和自定义文案
 
@@ -264,4 +264,4 @@ document.querySelector('#为什么')
 
 效果
 
-[[zh-CN/integrations/markdown-it-bi-directional-links/双向链接示例页面|自定义文案]]
+[[zh/integrations/markdown-it-bi-directional-links/双向链接示例页面|自定义文案]]

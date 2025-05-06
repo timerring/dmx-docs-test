@@ -48,9 +48,9 @@ import packageJSON from '~/packages/markdown-it-bi-directional-links/package.jso
 
 兼容自定义属性：[[双向链接示例页面|自定义属性]]{style="color: red;"}
 
-Obsidian 同名页面：[[zh-CN/integrations/markdown-it-bi-directional-links/same-name/双向链接示例同名页面|双向链接示例同名页面]] 和 [[zh-CN/integrations/markdown-it-bi-directional-links/双向链接示例同名页面|双向链接示例同名页面]]
+Obsidian 同名页面：[[zh/integrations/markdown-it-bi-directional-links/same-name/双向链接示例同名页面|双向链接示例同名页面]] 和 [[zh/integrations/markdown-it-bi-directional-links/双向链接示例同名页面|双向链接示例同名页面]]
 
-绝对路径：[[zh-CN/integrations/markdown-it-bi-directional-links/双向链接示例页面]]
+绝对路径：[[zh/integrations/markdown-it-bi-directional-links/双向链接示例页面]]
 
 图片也支持的：
 

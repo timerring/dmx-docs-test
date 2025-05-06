@@ -10,7 +10,7 @@ sidebarTitle: 配置 UI 组件
 
 我们将 `mapAuthors` 配置迁移到了 [配置 Vite 插件](./configure-vite-plugins#在-markdown-页面层级将页面排除在-gitchangelogmarkdownsection-的转换之外)。
 
-有关具体的迁移信息，请参阅 [自 v2 迁移至 v3](/zh-CN/releases/migrations/v2-to-v3)。
+有关具体的迁移信息，请参阅 [自 v2 迁移至 v3](/zh/releases/migrations/v2-to-v3)。
 
 :::
 
@@ -85,7 +85,7 @@ export const Theme: ThemeConfig = {
 
 自 `2.0.0` 起，我们更改了国际化配置的结构，旧结构将在下一个主版本中废弃。请根据新结构更新配置。
 
-有关迁移指南，请参阅 [自 v1 迁移至 v2](/zh-CN/releases/migrations/v1-to-v2)。
+有关迁移指南，请参阅 [自 v1 迁移至 v2](/zh/releases/migrations/v1-to-v2)。
 
 :::
 
@@ -232,7 +232,7 @@ export const Theme: ThemeConfig = {
 
 自 `2.0.0` 起，我们更改了国际化配置的结构，旧结构将在下一个主版本中废弃。请根据新结构更新配置。
 
-有关迁移指南，请参阅 [自 v1 迁移至 v2](/zh-CN/releases/migrations/v1-to-v2)。
+有关迁移指南，请参阅 [自 v1 迁移至 v2](/zh/releases/migrations/v1-to-v2)。
 
 :::
 

@@ -25,9 +25,9 @@ export const sidebars: Record<string, DefaultTheme.SidebarItem[] | DefaultTheme.
     '/en/': calculateSidebar(['en/guide', 'en/integrations', 'en/releases'], undefined, { '/': 4 }),
     '/en/ui/': calculateSidebar(['en/ui'], undefined, { '/': 2 }),
   } as DefaultTheme.SidebarMulti,
-  'zh-CN': {
-    '/zh-CN/': calculateSidebar(['zh-CN/guide', 'zh-CN/knowledge', 'zh-CN/models', 'zh-CN/integrations', 'zh-CN/release'], undefined, { '/': 2 }),
-    '/zh-CN/ui/': calculateSidebar(['zh-CN/ui'], undefined, { '/': 2 }),
+  'zh': {
+    '/zh/': calculateSidebar(['zh/guide', 'zh/knowledge', 'zh/models', 'zh/integrations', 'zh/release'], undefined, { '/': 2 }),
+    '/zh/ui/': calculateSidebar(['zh/ui'], undefined, { '/': 2 }),
   } as DefaultTheme.SidebarMulti,
 }
 function getVueProdHydrationMismatchDetailsFlag() {
@@ -83,7 +83,7 @@ export default defineConfig({
       provider: 'local',
       options: {
         locales: {
-          'zh-CN': {
+          'zh': {
             translations: {
               button: {
                 buttonText: '搜索文档',
@@ -146,8 +146,8 @@ export default defineConfig({
     },
     'root': {
       label: '简体中文',
-      lang: 'zh-CN',
-      link: '/zh-CN/',
+      lang: 'zh',
+      link: '/zh/',
       title: 'DMX API 文档',
       description: '一个 Key 使用全球大模型',
       themeConfig: {
@@ -155,12 +155,12 @@ export default defineConfig({
           {
             text: '快速入门',
             items: [
-              { text: '快速开始', link: '/zh-CN/guide/getting-started' },
-              { text: '最近更新', link: '/zh-CN/guide/recent-updates' },
+              { text: '快速开始', link: '/zh/guide/getting-started' },
+              { text: '最近更新', link: '/zh/guide/recent-updates' },
             ],
           },
-          { text: '模型上新', link: '/zh-CN/integrations/' },
-          { text: '工作台', link: '/zh-CN/ui/' },
+          { text: '模型上新', link: '/zh/integrations/' },
+          { text: '工作台', link: '/zh/ui/' },
           {
             text: packageJSON.version,
             items: [
@@ -169,18 +169,18 @@ export default defineConfig({
                 items: [
                   {
                     text: '自 v1 迁移至 v2',
-                    link: '/zh-CN/releases/migrations/v1-to-v2',
+                    link: '/zh/releases/migrations/v1-to-v2',
                   },
                   {
                     text: '自 v2 迁移至 v3',
-                    link: '/zh-CN/releases/migrations/v2-to-v3',
+                    link: '/zh/releases/migrations/v2-to-v3',
                   },
                 ],
               },
             ],
           },
         ],
-        sidebar: sidebars['zh-CN'],
+        sidebar: sidebars['zh'],
       },
     },
   },
@@ -234,17 +234,17 @@ export default defineConfig({
           { prefix: '/en/guide/', text: 'Guide' },
           { prefix: '/en/ui/', text: 'UI Components' },
           { prefix: '/en/', text: 'Documentations' },
-          { prefix: '/zh-CN/integrations/markdown-it-bi-directional-links', text: 'Markdown It 插件：双向链接' },
-          { prefix: '/zh-CN/integrations/markdown-it', text: 'Markdown It 插件' },
-          { prefix: '/zh-CN/integrations/obsidian-plugin', text: 'Obsidian 插件' },
-          { prefix: '/zh-CN/integrations/vitepress-plugin-inline-link-preview', text: 'VitePress 插件：行内链接预览' },
-          { prefix: '/zh-CN/integrations/vitepress-plugin-git-changelog', text: 'VitePress 插件：变更日志 及 文件历史' },
-          { prefix: '/zh-CN/integrations/vitepress-plugin-thumbnail-hash', text: 'VitePress 插件：缩略图模糊哈希生成' },
-          { prefix: '/zh-CN/integrations/vitepress-plugin', text: 'VitePress 插件' },
-          { prefix: '/zh-CN/integrations/', text: '集成' },
-          { prefix: '/zh-CN/guide/', text: '指南' },
-          { prefix: '/zh-CN/ui/', text: 'UI 组件' },
-          { prefix: '/zh-CN/', text: '文档' },
+          { prefix: '/zh/integrations/markdown-it-bi-directional-links', text: 'Markdown It 插件：双向链接' },
+          { prefix: '/zh/integrations/markdown-it', text: 'Markdown It 插件' },
+          { prefix: '/zh/integrations/obsidian-plugin', text: 'Obsidian 插件' },
+          { prefix: '/zh/integrations/vitepress-plugin-inline-link-preview', text: 'VitePress 插件：行内链接预览' },
+          { prefix: '/zh/integrations/vitepress-plugin-git-changelog', text: 'VitePress 插件：变更日志 及 文件历史' },
+          { prefix: '/zh/integrations/vitepress-plugin-thumbnail-hash', text: 'VitePress 插件：缩略图模糊哈希生成' },
+          { prefix: '/zh/integrations/vitepress-plugin', text: 'VitePress 插件' },
+          { prefix: '/zh/integrations/', text: '集成' },
+          { prefix: '/zh/guide/', text: '指南' },
+          { prefix: '/zh/ui/', text: 'UI 组件' },
+          { prefix: '/zh/', text: '文档' },
         ],
         fallbackWithFrontmatter: true,
       },

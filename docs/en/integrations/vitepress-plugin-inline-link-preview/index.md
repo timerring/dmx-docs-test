@@ -17,7 +17,7 @@ This VitePress plugin is an implementation that similar to Obsidian's link previ
 
 <div grid="~ cols-[auto_1fr] gap-1" items-start my-1>
   <div h=[1rem]><div i-icon-park-outline:check-one text="green-600" /></div>
-  <span>Better with <a href="/zh-CN/integrations/markdown-it-bi-directional-links/">Bi-directional Links</a></span>
+  <span>Better with <a href="/zh/integrations/markdown-it-bi-directional-links/">Bi-directional Links</a></span>
   <div h=[1rem]><div i-icon-park-outline:check-one text="green-600" /></div>
   <span>Preview any links</span>
   <div h=[1rem]><div i-icon-park-outline:check-one text="green-600" /></div>

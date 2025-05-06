@@ -13,7 +13,7 @@ import packageJSON from '~/packages/markdown-it-element-transform/package.json'
 
 ::: warning 在开始之前
 
-此插件主要是 [行内链接预览](/zh-CN/integrations/vitepress-plugin-inline-link-preview/) 的辅助工具 `markdown-it` 插件，用于将所有 `<a>` 元素转换为 `<VPNolebaseInlineLinkPreview>` 组件。
+此插件主要是 [行内链接预览](/zh/integrations/vitepress-plugin-inline-link-preview/) 的辅助工具 `markdown-it` 插件，用于将所有 `<a>` 元素转换为 `<VPNolebaseInlineLinkPreview>` 组件。
 
 当直接使用此插件时，您可能会在转换 [Token](https://markdown-it.github.io/markdown-it/#Token) 和元素后与 VitePress 或 Vue markdown 插件集成时遇到诸如 `Invalid tag` 或 `Element missing end tag` 等错误，
 或者与不兼容转换后元素的其他 `markdown-it` 插件集成时遇到错误。请在了解 `markdown-it` 的 [Token API](https://markdown-it.github.io/markdown-it/#Token) 如何工作后使用它。

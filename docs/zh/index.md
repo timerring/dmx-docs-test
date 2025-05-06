@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 查看文档
-      link: /zh-CN/guide/getting-started
+      link: /zh/guide/getting-started
     - theme: alt
       text: 访问官网
       link: https://dmxapi.cn

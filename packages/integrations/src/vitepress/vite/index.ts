@@ -16,8 +16,8 @@ export function presetVite(options: PresetViteOptions): PresetVite {
         },
         markdownSection: {
           excludes: [
-            join('pages', 'en', 'index.md'),
-            join('pages', 'zh-CN', 'index.md'),
+            join('en', 'index.md'),
+            join('zh-CN', 'index.md'),
             join('README.md'),
             join('index.md'),
           ],
@@ -28,8 +28,8 @@ export function presetVite(options: PresetViteOptions): PresetVite {
       options: {
         markdownSection: {
           excludes: [
-            join('pages', 'en', 'index.md'),
-            join('pages', 'zh-CN', 'index.md'),
+            join('en', 'index.md'),
+            join('zh-CN', 'index.md'),
             join('README.md'),
             join('index.md'),
           ],

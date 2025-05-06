@@ -17,7 +17,7 @@ import { PopupIframe } from '@nolebase/vitepress-plugin-inline-link-preview/clie
 
 <div grid="~ cols-[auto_1fr] gap-1" items-start my-1>
   <div h=[1rem]><div i-icon-park-outline:check-one text="green-600" /></div>
-  <span>与<a href="/zh-CN/integrations/markdown-it-bi-directional-links/">双向链接</a>一起搭配更佳</span>
+  <span>与<a href="/zh/integrations/markdown-it-bi-directional-links/">双向链接</a>一起搭配更佳</span>
   <div h=[1rem]><div i-icon-park-outline:check-one text="green-600" /></div>
   <span>预览任何页面</span>
   <div h=[1rem]><div i-icon-park-outline:check-one text="green-600" /></div>
@@ -41,7 +41,7 @@ import { PopupIframe } from '@nolebase/vitepress-plugin-inline-link-preview/clie
 在与下面的预览弹出窗口进行交互和尝试时，任何的滚动、点击和浏览能力都是支持的，而且不会干扰到外部的页面。
 
 <div relative h-full min-h="[440px] <sm:[480px]" w-full max-w="[640px] <sm:100%">
-  <a href="/zh-CN/integrations/">集成</a>
+  <a href="/zh/integrations/">集成</a>
   <div
     flex="~ col"
     absolute z-1 m-0 overflow-hidden rounded-lg p-0
@@ -50,7 +50,7 @@ import { PopupIframe } from '@nolebase/vitepress-plugin-inline-link-preview/clie
     h="[400px]" max-h="[440px]"
     shadow="2xl" border="1 solid $vp-c-divider"
   >
-    <PopupIframe href="/zh-CN/integrations/" />
+    <PopupIframe href="/zh/integrations/" />
   </div>
 </div>
 
