@@ -20,19 +20,24 @@ hero:
       link: https://github.com/dmxapi/dmxapi-docs
 
 features:
-  - icon: <img src="/icons/Handshake.png" alt="握手">
-    title: 简单易用
-    details: 简单易用，让作者少些操心，更何况写作本就耗时耗力，这些问题不应该成为限制您创造力的障碍。
-  - icon: <img src="/icons/Technologist.png" alt="及时的技术支持">
-    title: 跨平台
-    details: 不论是静态如 VitePress，Rspress，还是客户端优先如 Obsidian 和 Logseq，我们期望能够在不同的平台上为您提供近似甚至更好的体验。
-  - icon: <img src="/icons/Page.png" alt="开发票">
-    title: 丰富的功能
-    details: 通过「Nólëbase 集成」所提供的大量的功能、小部件、组件，填补笔记平台和工具之间的差距并优化整体体验。
   - icon: <span class="rive-canvas" data-rive-canvas="true" data-rive-src="/icons/rocket-emoji-animated.riv"></span>
-    title: 写作优先
-    details: 从文档工程的角度出发，解决和简化若干 UX/DX 的问题和困境，旨在让创作者更好地专注于撰写文档、笔记、制作卡片以及 GTD。
-
+    title: 超高并发与同步更新
+    details: 采用先进的架构设计与优化，轻松应对海量并发请求，适用于各类高流量场景。我们即时同步全球最新AI大模型，确保您始终掌握最新技术。
+  - icon: <img src="/icons/Technologist.png" alt="及时的技术支持">
+    title: 一对一客服支持
+    details: 我们提供近乎7×24小时的一对一在线客服技术支持，无论是技术问题还是个性化需求，客服团队随时待命，确保迅速响应。
+  - icon: <img src="/icons/RMB.png" alt="人民币">
+    title: 人民币计价全球大模型
+    details: 1 个 Key 直连畅通使用国内外领先大模型 API 服务，并且通过直接与大模型原厂合作，我们采用集中采购的方式获取资源，确保为您提供极具竞争力的价格。
+  - icon: <img src="/icons/Page.png" alt="开发票">
+    title: 极其便捷的发票服务
+    details: 我们严格遵循商务流程，确保每一步操作都规范透明。从合同签署到发票开具，全程支持，保证每笔交易合法合规，为您提供最安心便捷的合作体验。
+  - icon: <img src="/icons/Locked.png" alt="数据安全">
+    title: 数据安全
+    details: 我们专注于API聚合中转服务，不存储任何客户数据，绝对确保信息安全与隐私保护。选择我们，既可享受高效服务，又能获得数据安全保障。
+  - icon: <img src="/icons/Handshake.png" alt="握手">
+    title: 服务承诺
+    details: 我们确保向客户提供真实、可靠的模型服务，维护客户的信任与满意度。
 nolebase:
   index: false
 
