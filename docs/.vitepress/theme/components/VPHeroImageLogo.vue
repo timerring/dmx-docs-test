@@ -3,6 +3,7 @@ import { useMediaQuery } from '@vueuse/core'
 import { useMotion } from '@vueuse/motion'
 
 import { ref } from 'vue'
+import DMXAPI from '../assets/DMXAPI.png'
 import ObsidianLogo from '../assets/obsidian-logo.svg'
 import VitePressLogo from '../assets/vitepress-logo-large.webp'
 import VPHeroImageLayer from './VPHeroImageLogoLayer.vue'
@@ -136,10 +137,18 @@ refs.forEach((ref, index) => {
           class="h-44 w-44 <lg:h-40 <lg:w-40 <md:h-36 <md:w-36 <sm:h-32 <sm:w-32"
           z="1"
         >
-          <div i-fluent-emoji:notebook-with-decorative-cover h-full w-full />
+          <img
+            :src="DMXAPI"
+            alt="DMXAPI Logo Blur"
+            class="h-full w-full object-contain"
+          >
         </div>
         <div h-full w-full opacity-60 blur-lg>
-          <div i-fluent-emoji:notebook-with-decorative-cover h-full w-full />
+          <img
+            :src="DMXAPI"
+            alt="DMXAPI Logo Blur"
+            class="h-full w-full object-contain"
+          >
         </div>
       </VPHeroImageLayer>
       <VPHeroImageLayer ref="layer2Ref" class="layer-2" z="3" shadow-md>

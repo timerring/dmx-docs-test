@@ -20,13 +20,13 @@ hero:
       link: https://github.com/dmxapi/dmxapi-docs
 
 features:
-  - icon: <span class="rive-canvas" data-rive-canvas="true" data-rive-src="/icons/star-emoji-animated.riv"></span>
+  - icon: <img src="/icons/Handshake.png" alt="握手">
     title: 简单易用
     details: 简单易用，让作者少些操心，更何况写作本就耗时耗力，这些问题不应该成为限制您创造力的障碍。
-  - icon: <span class="rive-canvas" data-rive-canvas="true" data-rive-src="/icons/easter-island-statue-emoji-animated.riv"></span>
+  - icon: <img src="/icons/Technologist.png" alt="及时的技术支持">
     title: 跨平台
     details: 不论是静态如 VitePress，Rspress，还是客户端优先如 Obsidian 和 Logseq，我们期望能够在不同的平台上为您提供近似甚至更好的体验。
-  - icon: <span class="rive-canvas" data-rive-canvas="true" data-rive-src="/icons/crystall-ball-emoji-animated.riv"></span>
+  - icon: <img src="/icons/Page.png" alt="开发票">
     title: 丰富的功能
     details: 通过「Nólëbase 集成」所提供的大量的功能、小部件、组件，填补笔记平台和工具之间的差距并优化整体体验。
   - icon: <span class="rive-canvas" data-rive-canvas="true" data-rive-src="/icons/rocket-emoji-animated.riv"></span>
@@ -35,6 +35,8 @@ features:
 
 nolebase:
   index: false
+
+gitChangelog: false
 ---
 
 <script setup>
