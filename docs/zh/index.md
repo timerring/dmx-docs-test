@@ -13,11 +13,8 @@ hero:
       text: 查看文档
       link: /zh/guide/getting-started
     - theme: alt
-      text: 访问官网
+      text: 立即体验
       link: https://dmxapi.cn
-    - theme: alt
-      text: 在 GitHub 上查看
-      link: https://github.com/dmxapi/dmxapi-docs
 
 features:
   - icon: <span class="rive-canvas" data-rive-canvas="true" data-rive-src="/icons/rocket-emoji-animated.riv"></span>
@@ -43,22 +40,6 @@ nolebase:
 
 gitChangelog: false
 ---
-
-<!-- <script setup>
-import sidebarPackageJSON from '~/packages/vitepress-plugin-sidebar/package.json'
-import biDirectionalLinksPackageJSON from '~/packages/markdown-it-bi-directional-links/package.json'
-import elementTransform from '~/packages/markdown-it-element-transform/package.json'
-import unlazyImg from '~/packages/markdown-it-unlazy-img/package.json'
-import enhancedReadabilities from '~/packages/vitepress-plugin-enhanced-readabilities/package.json'
-import index from '~/packages/vitepress-plugin-inline-link-preview/package.json'
-import inlineLinkPreview from '~/packages/vitepress-plugin-inline-link-preview/package.json'
-import highlightTargetedHeading from '~/packages/vitepress-plugin-highlight-targeted-heading/package.json'
-import gitChangelog from '~/packages/vitepress-plugin-git-changelog/package.json'
-import enhancedMark from '~/packages/vitepress-plugin-enhanced-mark/package.json'
-import thumbnailHash from '~/packages/vitepress-plugin-thumbnail-hash/package.json'
-</script> -->
-
-
 
 <HomeContent>
 

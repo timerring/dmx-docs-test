@@ -84,8 +84,10 @@ export default defineConfig({
     // externalLinkIcon: true,
     outline: 'deep',
     socialLinks: [
+      { icon: 'devpost', link: 'https://dmxapi.cn/' },
       { icon: 'github', link: 'https://github.com/dmxapi' },
-      { icon: 'discord', link: 'https://dmxapi.cn/' },
+      { icon: 'x', link: 'https://dmxapi.cn/' },
+      { icon: 'wechat', link: 'https://dmxapi.cn/models.html#contact' },
     ],
     footer: {
       copyright: 'Copyright © 2023 - 2025 DMXAPI, LLC',
@@ -170,13 +172,13 @@ export default defineConfig({
               { text: '最近更新', link: '/zh/guide/recent-updates' },
             ],
           },
-          { text: '模型上新', link: '/zh/integrations/' },
-          { text: '工作台', link: '/zh/ui/' },
+          { text: '上新日志', link: '/zh/integrations/' },
+          { text: '接入教程', link: '/zh/ui/' },
           {
-            text: packageJSON.version,
+            text: '模型列表',
             items: [
               {
-                text: '迁移指南',
+                text: '迁移',
                 items: [
                   {
                     text: '自 v1 迁移至 v2',
