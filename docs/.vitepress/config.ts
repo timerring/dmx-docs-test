@@ -76,7 +76,8 @@ export default defineConfig({
   head: [
     // Proxying Plausible through Netlify | Plausible docs
     // https://plausible.io/docs/proxy/guides/netlify
-    ['script', { 'defer': 'true', 'data-domain': 'nolebase-integrations.ayaka.io', 'data-api': '/api/v1/page-external-data/submit', 'src': '/assets/page-external-data/js/script.js' }],
+    ['script', { 'defer': 'true', 'data-domain': '', 'data-api': '', 'src': '' }],
+    ['link', { rel: 'icon', href: '/DMXAPI.png' }],
   ],
   themeConfig: {
     // Only enable this on debug component style
@@ -158,7 +159,7 @@ export default defineConfig({
       label: '简体中文',
       lang: 'zh',
       link: '/zh/',
-      title: 'DMX API 文档',
+      title: 'DMXAPI 文档',
       description: '一个 Key 使用全球大模型',
       themeConfig: {
         nav: [
