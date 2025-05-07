@@ -178,14 +178,40 @@ export default defineConfig({
             text: '模型列表',
             items: [
               {
-                text: '迁移',
+                text: 'OpenAI 系列',
                 items: [
                   {
-                    text: '自 v1 迁移至 v2',
+                    text: 'GPT-4',
                     link: '/zh/releases/migrations/v1-to-v2',
                   },
                   {
-                    text: '自 v2 迁移至 v3',
+                    text: 'GPT-4o',
+                    link: '/zh/releases/migrations/v2-to-v3',
+                  },
+                ],
+              },
+              {
+                text: 'Gemini 系列',
+                items: [
+                  {
+                    text: 'Gemini 1.5 Pro',
+                    link: '/zh/releases/migrations/v1-to-v2',
+                  },
+                  {
+                    text: 'Gemini 1.5 Flash',
+                    link: '/zh/releases/migrations/v2-to-v3',
+                  },
+                ],
+              },
+              {
+                text: 'DeepSeek 系列',
+                items: [
+                  {
+                    text: 'DeepSeek Coder',
+                    link: '/zh/releases/migrations/v1-to-v2',
+                  },
+                  {
+                    text: 'DeepSeek Coder Plus',
                     link: '/zh/releases/migrations/v2-to-v3',
                   },
                 ],

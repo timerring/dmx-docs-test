@@ -6,9 +6,6 @@ gitChangelog: false
 
 # 迁移
 
-目前，该项目的**正在进行的开发版本**是：`v2`。
-
 您可以在这里找到迁移指南：
 
-- [自 `v1` 迁移至 `v2`](v1-to-v2.md)
 - [可灵 Kling 文生图](kling-text-to-image.md)
