@@ -86,6 +86,9 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/dmxapi' },
       { icon: 'discord', link: 'https://dmxapi.cn/' },
     ],
+    footer: {
+      copyright: 'Copyright © 2023 - 2025 DMXAPI, LLC',
+    },
     search: {
       provider: 'local',
       options: {

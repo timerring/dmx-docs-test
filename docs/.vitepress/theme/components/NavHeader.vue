@@ -8,8 +8,8 @@
     >
       <div
         class="[mask-image:radial-gradient(farthest-side_at_top,white,transparent)]"
-        from="violet-500 dark:violet-900/90"
-        to="violet-100 dark:violet-500/90"
+        from="white dark:violet-900/90"
+        to="white dark:violet-500/90"
         absolute inset-0 bg-gradient-to-r opacity-30 dark:opacity-30
       />
     </div>
