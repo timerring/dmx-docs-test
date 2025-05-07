@@ -7,7 +7,7 @@ import { NolebasePluginPreset } from '@nolebase/unconfig-vitepress/plugins'
 import TwoslashFloatingVue from '@shikijs/vitepress-twoslash/client'
 import { MotionPlugin } from '@vueuse/motion'
 import { h } from 'vue'
-
+import DifyChatbot from './components/DifyChatbot.vue'
 import HomeContent from './components/HomeContent.vue'
 import IntegrationCard from './components/IntegrationCard.vue'
 import NavHeader from './components/NavHeader.vue'
@@ -15,7 +15,6 @@ import ThumbhashPreview from './components/ThumbhashPreview.vue'
 import TrustList from './components/TrustList.vue'
 import VPHeroImageLogo from './components/VPHeroImageLogo.vue'
 import 'virtual:uno.css'
-
 import '@shikijs/vitepress-twoslash/style.css'
 import 'asciinema-player/dist/bundle/asciinema-player.css'
 
@@ -38,6 +37,11 @@ export default defineThemeUnconfig({
       'home-hero-image': {
         node: [
           () => h(VPHeroImageLogo),
+        ],
+      },
+      'layout-bottom': {
+        node: [
+          () => h(DifyChatbot),
         ],
       },
     },

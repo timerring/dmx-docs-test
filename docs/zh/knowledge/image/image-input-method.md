@@ -48,4 +48,3 @@ def get_image_base64(image_path):
 base64array = get_image_base64("/Users/your_image.png") # 修改为你的图片绝对路径
 print(base64array)
 ```
-
