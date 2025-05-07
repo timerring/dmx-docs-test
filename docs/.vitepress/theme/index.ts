@@ -12,8 +12,8 @@ import HomeContent from './components/HomeContent.vue'
 import IntegrationCard from './components/IntegrationCard.vue'
 import NavHeader from './components/NavHeader.vue'
 import ThumbhashPreview from './components/ThumbhashPreview.vue'
+import TrustList from './components/TrustList.vue'
 import VPHeroImageLogo from './components/VPHeroImageLogo.vue'
-
 import 'virtual:uno.css'
 
 import '@shikijs/vitepress-twoslash/style.css'
@@ -46,7 +46,7 @@ export default defineThemeUnconfig({
     app.component('IntegrationCard', IntegrationCard)
     app.component('HomeContent', HomeContent)
     app.component('ThumbhashPreview', ThumbhashPreview)
-
+    app.component('TrustList', TrustList)
     app.use(TwoslashFloatingVue as Plugin)
     app.use(MotionPlugin as Plugin)
   },

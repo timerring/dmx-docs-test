@@ -141,3 +141,40 @@ html, body {
 .strong-text {
   color: #382f2f;
 }
+
+.dark .strong-text {
+  color: #dfdfd6;
+}
+
+.key-gradient {
+  font-weight: bold;
+  font-size: 1em;
+  background: linear-gradient(90deg, #fbb040 0%, #f15a29 40%, #c837ab 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.dmxapi-d {
+  background: #19b3c6;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dmxapi-m {
+  background: #6d5a99;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dmxapi-x {
+  background: #e94b6a;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dmxapi-api {
+  background: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: DMXAPI 文档
-  text: 一个 Key 用全球大模型
+  text: 一个 <span class="key-gradient">Key</span> 用全球大模型
   tagline: DMX = 大模型拼音首字母
   image:
     src: /logo-day.png
@@ -44,7 +44,7 @@ nolebase:
 gitChangelog: false
 ---
 
-<script setup>
+<!-- <script setup>
 import sidebarPackageJSON from '~/packages/vitepress-plugin-sidebar/package.json'
 import biDirectionalLinksPackageJSON from '~/packages/markdown-it-bi-directional-links/package.json'
 import elementTransform from '~/packages/markdown-it-element-transform/package.json'
@@ -56,7 +56,9 @@ import highlightTargetedHeading from '~/packages/vitepress-plugin-highlight-targ
 import gitChangelog from '~/packages/vitepress-plugin-git-changelog/package.json'
 import enhancedMark from '~/packages/vitepress-plugin-enhanced-mark/package.json'
 import thumbnailHash from '~/packages/vitepress-plugin-thumbnail-hash/package.json'
-</script>
+</script> -->
+
+
 
 <HomeContent>
 
@@ -64,103 +66,8 @@ import thumbnailHash from '~/packages/vitepress-plugin-thumbnail-hash/package.js
 
 `DMXAPI` 提供了全面而便捷的大模型 API 集成服务，让开发者能够通过单一接口轻松访问 ChatGPT、Claude、Gemini 和其他主流 大语言模型。我们的解决方案兼容多种开发框架和平台，支持 Node.js、Python、Go 等主流语言，并提供了丰富的示例代码和工具集，帮助开发者快速实现从聊天机器人到内容生成的各类 AI 应用场景。
 
-<div class="grid gap-5 lg:grid-cols-2 max-w-172 lg:max-w-none mx-auto">
-  <IntegrationCard type="markdown-it" title="双向链接" package="markdown-it-bi-directional-links">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${biDirectionalLinksPackageJSON.version}`" />
-    </template>
-  </IntegrationCard>
 
-  <IntegrationCard type="markdown-it" title="元素转换" package="markdown-it-element-transform">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${elementTransform.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="markdown-it" title="懒加载模糊缩略图" package="markdown-it-unlazy-img">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${unlazyImg.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="自动生成侧边栏" package="vitepress-plugin-sidebar">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${sidebarPackageJSON.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="阅读增强" package="vitepress-plugin-enhanced-readabilities">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${enhancedReadabilities.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="索引页" package="vitepress-plugin-index">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${index.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="行内链接预览" package="vitepress-plugin-inline-link-preview">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${inlineLinkPreview.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="闪烁高亮当前的目标标题" package="vitepress-plugin-highlight-targeted-heading">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${highlightTargetedHeading.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="基于 Git 的页面历史" package="vitepress-plugin-git-changelog">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${gitChangelog.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="<meta> 页面元信息生成" package="vitepress-plugin-meta">
-    <template v-slot:title>
-      <code>&lt;meta&gt;</code> 页面元信息生成
-    </template>
-    <template v-slot:badge>
-      <Badge type="warning" text="Beta 测试" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="预览图片（社交媒体卡片）生成" package="vitepress-plugin-og-image">
-    <template v-slot:badge>
-      <Badge type="warning" text="Beta 测试" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="页面属性" package="vitepress-plugin-page-properties">
-    <template v-slot:badge>
-      <Badge type="danger" text="Alpha 测试" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="<mark> 元素增强" package="vitepress-plugin-enhanced-mark">
-    <template v-slot:title>
-      <code>&lt;mark&gt;</code> 元素增强
-    </template>
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${enhancedMark.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="缩略图模糊哈希生成" package="vitepress-plugin-thumbnail-hash">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${thumbnailHash.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="obsidian" title="UnoCSS" package="obsidian-plugin-unocss">
-    <template v-slot:badge>
-      <Badge type="warning" text="Beta 测试" />
-    </template>
-  </IntegrationCard>
-</div>
+<TrustList />
 
 
 </HomeContent>
