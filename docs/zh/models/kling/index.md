@@ -7,11 +7,11 @@ updatedAt: 2025-05-08
 
 # Kling 文档
 
-:::tip 官方 API 文档
-https://app.klingai.com/cn/dev/document-api/apiReference/
+> [!TIP]官方 API 文档
+> https://app.klingai.com/cn/dev/document-api/apiReference/
+> 
+> 我们**持续同步**官方最新 API 变更，确保本文档是官方 API 规范的**可用实现**。如发现任何不一致之处，[请及时联系客服](https://dmxapi.cn/models.html#contact)。
 
-我们**持续同步**官方最新 API 变更，确保本文档是官方 API 规范的**可用实现**。如发现任何不一致之处，[请及时联系客服](https://dmxapi.cn/models.html#contact)。
-:::
 
 
 ## 案例文档
@@ -25,9 +25,9 @@ https://app.klingai.com/cn/dev/document-api/apiReference/
 
 ## 模型介绍
 
-:::tip
-通过 **DMXAPI** 接入 Kling AI，您可以轻松将这些强大功能集成到自己的应用和工作流程中，无需处理复杂的 API 对接流程。
-:::
+> [!NOTE]
+> 通过 **DMXAPI** 接入 Kling AI，您可以轻松将这些强大功能集成到自己的应用和工作流程中，无需处理复杂的 API 对接流程。
+
 
 ### kling-v1
 
