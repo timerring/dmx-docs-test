@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: Nólëbase Integrations
-  text: A collection of diverse documentation engineering tools
-  tagline: "For a better experience of documentation engineering based on local-first knowledge base and static site generator"
+  name: DMXAPI Docs
+  text: One <span class="key-gradient">Key</span> for Global AI Models
+  tagline: Unified Access to Leading AI Models Worldwide
   image:
     src: /logo-day.png
   actions:
@@ -13,180 +13,40 @@ hero:
       text: Get Started
       link: /en/guide/getting-started
     - theme: alt
-      text: Join Discord server
-      link: https://discord.gg/XuNFDcDZGj
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/nolebase/integrations
+      text: Try Now
+      link: https://dmxapi.cn
 
 features:
-  - icon: <span class="rive-canvas" data-rive-canvas="true" data-rive-src="/icons/star-emoji-animated.riv"></span>
-    title: Easy to use
-    details: Easy and less caring about toolings. Writing is already time-consuming and labor-intensive. These issues should not be obstacles to restrict your creativity.
-  - icon: <span class="rive-canvas" data-rive-canvas="true" data-rive-src="/icons/easter-island-statue-emoji-animated.riv"></span>
-    title: Cross-platform
-    details: Whether it is static-first like VitePress and Rspress, or client-first like Obsidian and Logseq, we hope to deliver the similar or even better experience across different platforms.
-  - icon: <span class="rive-canvas" data-rive-canvas="true" data-rive-src="/icons/crystall-ball-emoji-animated.riv"></span>
-    title: Rich Features
-    details: Expand your imagination far beyond with Nólëbase Integrations with loads of features, widgets, components to fill the gap between note-taking platforms while improving.
   - icon: <span class="rive-canvas" data-rive-canvas="true" data-rive-src="/icons/rocket-emoji-animated.riv"></span>
-    title: Writing First
-    details: From the perspective of documentation engineering, solve and simplify some UX/DX problems, aiming to let creators focus on writing documents, notes, making cards and GTD!
-
+    title: Enterprise-grade Performance
+    details: Built on a high-performance architecture designed to handle <strong class="strong-text">millions of concurrent requests</strong> with minimal latency. Stay ahead with <strong class="strong-text">real-time model updates</strong> as new versions are released globally.
+  - icon: <img src="/icons/Technologist.png" alt="Technical Support">
+    title: Dedicated Support
+    details: Access <strong class="strong-text">24/7 technical support</strong> from our experienced team. We're committed to resolving your issues quickly and efficiently, enabling you to focus on building exceptional AI applications.
+  - icon: <img src="/icons/RMB.png" alt="Cost-effective">
+    title: Cost-effective Solutions
+    details: Benefit from <strong class="strong-text">direct partnerships with model providers</strong> and our <strong class="strong-text">bulk purchasing power</strong> to access premium AI models at <a href="https://www.dmxapi.cn/pricing" class="custom-link">rates up to 30% below market price</a>.
+  - icon: <img src="/icons/Page.png" alt="Business Operations">
+    title: Streamlined Business Operations
+    details: From <a href="https://www.aiqbh.com/openai-api.html#contact" class="custom-link">contract signing</a> to <a href="https://www.dmxapi.cn/fapiao" class="custom-link">invoicing</a>, enjoy <strong class="strong-text">enterprise-ready business processes</strong> that comply with international standards and local regulations.
+  - icon: <img src="/icons/Locked.png" alt="Security">
+    title: Advanced Security
+    details: Our architecture operates as a secure proxy, <strong class="strong-text">never storing your data</strong> or prompts. Implement your AI solutions with confidence, knowing your intellectual property and user data remain protected.
+  - icon: <img src="/icons/Handshake.png" alt="Reliability">
+    title: Reliability Guarantee
+    details: Count on our <strong class="strong-text">99.9% uptime commitment</strong> and transparent service level agreements. Review our complete <a href="https://dmxapi.cn/chengnuo.html" class="custom-link">service guarantees</a> designed for business-critical applications.
 nolebase:
   index: false
----
 
-<script setup>
-import sidebarPackageJSON from '~/packages/vitepress-plugin-sidebar/package.json'
-import biDirectionalLinksPackageJSON from '~/packages/markdown-it-bi-directional-links/package.json'
-import breadcrumbsPackageJSON from '~/packages/vitepress-plugin-breadcrumbs/package.json'
-import elementTransform from '~/packages/markdown-it-element-transform/package.json'
-import unlazyImg from '~/packages/markdown-it-unlazy-img/package.json'
-import enhancedReadabilities from '~/packages/vitepress-plugin-enhanced-readabilities/package.json'
-import index from '~/packages/vitepress-plugin-inline-link-preview/package.json'
-import inlineLinkPreview from '~/packages/vitepress-plugin-inline-link-preview/package.json'
-import highlightTargetedHeading from '~/packages/vitepress-plugin-highlight-targeted-heading/package.json'
-import gitChangelog from '~/packages/vitepress-plugin-git-changelog/package.json'
-import enhancedMark from '~/packages/vitepress-plugin-enhanced-mark/package.json'
-import thumbnailHash from '~/packages/vitepress-plugin-thumbnail-hash/package.json'
-</script>
+gitChangelog: false
+---
 
 <HomeContent>
 
-## Integrations List
+## Access World-Class AI Models
 
-Nólëbase Integrations project provides a variety of integrations, plugins, components and libraries to facilitate the use of our pre-packaged variety of features in [Obsidian](https://obsidian.md), [VitePress](https://vitepress.dev) and other projects compatible with [Markdown It](https://github.com/markdown-it/markdown-it), [Vite](https://vitejs.dev/) and [Vue](https://vuejs.org/).
+DMXAPI provides unified access to over 20 leading AI models including OpenAI's GPT-4, Anthropic's Claude, Google's Gemini, and more through a consistent, developer-friendly API. Our platform supports all major programming languages with comprehensive SDKs for Node.js, Python, Go, and other languages, making implementation seamless across different technology stacks.
 
-<div class="grid gap-5 lg:grid-cols-2 max-w-172 lg:max-w-none mx-auto">
-  <IntegrationCard type="markdown-it" title="Bi-Directional Links" package="markdown-it-bi-directional-links">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${biDirectionalLinksPackageJSON.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="markdown-it" title="Elements Transformation" package="markdown-it-element-transform">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${elementTransform.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="markdown-it" title="Lazy loading blurred thumbnails" package="markdown-it-unlazy-img">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${unlazyImg.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="Auto Sidebar" package="vitepress-plugin-sidebar">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${sidebarPackageJSON.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="Breadcrumbs" package="vitepress-plugin-breadcrumbs">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${breadcrumbsPackageJSON.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="Enhanced Readabilities" package="vitepress-plugin-enhanced-readabilities">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${enhancedReadabilities.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="Index page" package="vitepress-plugin-index">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${index.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="Inline Link Previewing" package="vitepress-plugin-inline-link-preview">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${inlineLinkPreview.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="Blinking highlight targeted heading" package="vitepress-plugin-highlight-targeted-heading">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${highlightTargetedHeading.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="Git-based page histories" package="vitepress-plugin-git-changelog">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${gitChangelog.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="Page <meta> metadata generation" package="vitepress-plugin-og-image">
-    <template v-slot:title>
-      Page <code>&lt;meta&gt;</code> metadata generation
-    </template>
-    <template v-slot:badge>
-      <Badge type="warning" text="Beta" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="Previewing image (social media card) generation" package="vitepress-plugin-og-image">
-    <template v-slot:badge>
-      <Badge type="warning" text="Beta" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="Page properties" package="vitepress-plugin-page-properties">
-    <template v-slot:badge>
-      <Badge type="danger" text="Alpha" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="Enhanced <mark> elements" package="vitepress-plugin-enhanced-mark">
-    <template v-slot:title>
-      Enhanced <code>&lt;mark&gt;</code> elements
-    </template>
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${enhancedMark.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="vitepress" title="Thumbnail hashing for images" package="vitepress-plugin-thumbnail-hash">
-    <template v-slot:badge>
-      <Badge type="tip" :text="`v${thumbnailHash.version}`" />
-    </template>
-  </IntegrationCard>
-
-  <IntegrationCard type="obsidian" title="UnoCSS" package="obsidian-plugin-unocss">
-    <template v-slot:badge>
-      <Badge type="warning" text="Beta" />
-    </template>
-  </IntegrationCard>
-</div>
-
-<div>
-  <h2 text-center mt-11 pb-2>
-    Sponsored by
-  </h2>
-  <div flex justify-center>
-    <img src="https://cdn.jsdelivr.net/gh/nolebase/sponsors/sponsors.wide.svg" />
-  </div>
-
-  <p text-center>
-    This project is made possible by all the sponsors supporting our work <br>
-    You can join them at our sponsors profile:
-  </p>
-  <p flex justify-center gap-4>
-    <a href="https://github.com/sponsors/LittleSound"  target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=Rizumu&logo=GitHub&color=%23fe8e86&style=for-the-badge" /></a>
-    <a href="https://github.com/sponsors/nekomeowww" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=Neko&logo=GitHub&color=%23fe8e86&style=for-the-badge" /></a>
-  </p>
-
-  <h2 text="center lg" my-5 font-bold>
-    💕 Thanks to all the contributors!
-  </h2>
-
-  <a href="https://github.com/nolebase/integrations/graphs/contributors" flex justify-center>
-    <img src="https://contrib.rocks/image?repo=nolebase/integrations" />
-  </a>
-</div>
+<TrustList />
 
 </HomeContent>
-
