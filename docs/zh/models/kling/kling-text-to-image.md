@@ -31,7 +31,7 @@ updatedAt: 2025-05-08
 
 
 
-<<< @/zh/snippets/kling-text-to-image-function.py[纯函数版本]
+<<< @/zh/snippets/kling-text-to-image-function.py{6-7,20-26}[纯函数版本]
 
 
 

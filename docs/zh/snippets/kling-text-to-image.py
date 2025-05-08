@@ -5,6 +5,7 @@ import time
 class KlingTextToImage:
     def __init__(self, api_token, api_url):
         """初始化 Kling 图像生成器
+        
         参数:
             api_token: API 密钥
             api_url: API 节点地址
@@ -21,6 +22,7 @@ class KlingTextToImage:
 
     def kling_generate_image(self, model_name, prompt, negative_prompt, output_format, n, aspect_ratio, callback_url):
         """使用 kling 生成图像
+        
         参数: 
             model_name: str, 模型名称 可选择 kling-v1-5 或 kling-v1
             prompt: str, 文本提示词
@@ -55,6 +57,7 @@ class KlingTextToImage:
     
     def query_kling_image_url(self, task_id):
         """使用查询接口获取生成图像 url
+        
         输入参数:
             task_id: 生成任务的 id
         输出参数:
@@ -80,6 +83,7 @@ class KlingTextToImage:
     
     def generate_image(self, model_name, prompt, negative_prompt="", output_format="png", n=1, aspect_ratio="16:9", callback_url=""):
         """实现功能，直接根据预设的参数返回生成图像的 url
+        
         参数:
             model_name: str, 模型名称 可选择 kling-v1-5 或 kling-v1
             prompt: str, 文本提示词
