@@ -7,12 +7,12 @@ const { isDark } = useData()
 <template>
   <div class="image-container">
     <img
-      :src="isDark ? '/logo-dark.png' : '/dmxlogo-light.png'"
+      :src="isDark ? '/liveagent.png' : '/liveagent.png'"
       alt="Graph visualization"
       class="hover-image"
     >
     <div class="hover-text">
-      kling-text-to-image.md
+      扫码添加客服
     </div>
   </div>
 </template>
