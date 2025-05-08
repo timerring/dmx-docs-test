@@ -22,6 +22,13 @@ updatedAt: 2025-05-08
 
 ## API 文档
 
+### 查询任务接口
+
+- [查询任务](./api/query-api.md)
+
+### 提交任务接口
+
+- [生成图像](./api/generate-image.md)
 
 ## 模型介绍
 
