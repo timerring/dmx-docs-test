@@ -25,9 +25,11 @@ updatedAt: 2025-05-08
 
 ## 返回参数示例
 
+> 业务码的含义请参考 [业务码](/zh/models/kling/api/business-code.md)。
+
 ```
 {
-    'code': 0, // 状态码
+    'code': 0, // 业务码 0 表示成功
     'message': 'SUCCEED', // 消息
     'request_id': 'Cl58rmgHRLsAAAAABFV6lg', // 请求ID
     'data': {

@@ -22,6 +22,10 @@ updatedAt: 2025-05-08
 
 ## API 文档
 
+### 业务码
+
+- [业务码](./api/business-code.md)
+
 ### 查询任务接口
 
 - [查询任务](./api/query-api.md)
