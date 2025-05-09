@@ -27,6 +27,6 @@ updatedAt: 2025-05-08
 - [图生视频](./image-generate-video.md)
 - [视频特效](./video-effect.md)
 - [视频扩展](./video-extend.md)
-- [视频口型同步](./video-lip-sync.md)
+- [视频口型同步](./video-sync-lip.md)
 - [虚拟试穿](./virtual-try-on.md)
 

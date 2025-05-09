@@ -37,14 +37,14 @@ updatedAt: 2025-05-08
 - [图生视频](./api/image-generate-video.md)
 - [视频特效](./api/video-effect.md)
 - [视频扩展](./api/video-extend.md)
-- [视频口型同步](./api/video-lip-sync.md)
+- [视频口型同步](./api/video-sync-lip.md)
 - [虚拟试穿](./api/virtual-try-on.md)
 
 
 ## 模型介绍
 
 > [!NOTE]
-> 通过 **DMXAPI** 接入 Kling AI，您可以轻松将这些强大功能集成到自己的应用和工作流程中，无需处理复杂的 API 对接流程。详细对比可以查看 [Kling 模型能力一览](../overview.md) 了解 Kling 模型。
+> 通过 **DMXAPI** 接入 Kling AI，您可以轻松将这些强大功能集成到自己的应用和工作流程中，无需处理复杂的 API 对接流程。详细对比可以查看 [Kling 模型能力一览](./overview.md) 了解 Kling 模型。
 
 
 ### kling-v1
