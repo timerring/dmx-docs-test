@@ -10,7 +10,7 @@ updatedAt: 2025-05-09
 > [!TIP]
 > 由于任务是异步提交的，请在提交任务后，通过 [查询任务状态](/zh/models/kling/api/query-api.md) 接口查询任务状态及结果。
 >
-> 对于视频延长场景，生成时间可能较长，根据选择的参数而异，预计在 3 分钟内，请耐心等待。
+> 对于视频延长场景，生成时间可能较长，根据选择的参数而异，预计在 4 分钟内，请耐心等待。
 
 ## 接口描述
 
@@ -34,6 +34,7 @@ updatedAt: 2025-05-09
 
 | 参数名 | 类型 | 必填 | 默认值 | 描述 |
 |--------|------|------|--------|------|
+| task_id | string | 必须 | 无 | 任务ID |
 | video_id | string | 必须 | 无 | 视频ID，支持通过文本、图片和视频延长生成的视频的ID（原视频不能超过3分钟） |
 | prompt | string | 可选 | 无 | 正向文本提示词，不能超过2500个字符词 |
 | negative_prompt | string | 可选 | 无 | 负向文本提示词，不能超过2500个字符词 |
@@ -44,7 +45,7 @@ updatedAt: 2025-05-09
 
 > 深色背景为可以修改的参数，非必选参数已经注释，可以按照自己的需求启用。
 
-<<< @/zh/snippets/video-extend-api.py{5-6,19-23}
+<<< @/zh/snippets/video-extend-api.py{5-6,19-24}
 
 ## 响应参数示例
 
@@ -54,12 +55,12 @@ updatedAt: 2025-05-09
 {
 	'code': 0, // 业务码 0 表示成功
 	'message': 'SUCCEED', // 消息
-	'request_id': 'Cl6kH2gHPegAAAAABJAWDA', // 请求ID
+	'request_id': 'CjikY2gHPbcAAAAABI5n9g', // 请求ID
 	'data': {
-		'task_id': 'Cl6kH2gHPegAAAAABJAWDA', // 任务ID
+		'task_id': 'CjikY2gHPbcAAAAABI5n9g', // 任务ID
 		'task_status': 'submitted', // 任务状态
-		'created_at': 1746768679809, // 创建时间
-		'updated_at': 1746768679809 // 更新时间
+		'created_at': 1746773850590, // 创建时间
+		'updated_at': 1746773850590 // 更新时间
 	}
 }
 ```
