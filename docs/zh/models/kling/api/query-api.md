@@ -23,7 +23,7 @@ updatedAt: 2025-05-08
 | --- | --- | --- | --- |
 | task_id | string | 是 | 任务ID |
 
-## 返回参数示例
+## 响应参数示例
 
 > 业务码的含义请参考 [业务码](/zh/models/kling/api/business-code.md)。
 
