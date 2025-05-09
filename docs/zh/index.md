@@ -47,8 +47,19 @@ gitChangelog: false
 
 `DMXAPI` 提供了全面而便捷的大模型 API 集成服务，让开发者能够通过单一接口轻松访问 ChatGPT、Claude、Gemini 和其他主流 大语言模型。我们的解决方案兼容多种开发框架和平台，支持 Node.js、Python、Go 等主流语言，并提供了丰富的示例代码和工具集，帮助开发者快速实现从聊天机器人到内容生成的各类 AI 应用场景。
 
+<AIModelsList />
+
+<br>
+
+<IntroductionLIBlock />
+
+<br>
+<br>
+
+
+<IntroductionRIBlock />
+
 
 <TrustList />
-
 
 </HomeContent>
