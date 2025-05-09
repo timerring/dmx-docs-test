@@ -18,3 +18,4 @@ updatedAt: 2025-05-08
 ## 提交任务接口
 
 - [生成图像](generate-image.md)
+- [文生视频](text-generate-video.md)

@@ -33,6 +33,7 @@ updatedAt: 2025-05-08
 ### 提交任务接口
 
 - [生成图像](./api/generate-image.md)
+- [文生视频](./api/text-generate-video.md)
 
 ## 模型介绍
 
