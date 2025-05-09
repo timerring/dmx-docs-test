@@ -71,7 +71,7 @@ document.querySelector('#为什么')
 
 当您想要在当页面打开并加载后跳转到特定部分时，这种功能就非常有用了。
 
-搭配使用我们提供的 [闪烁高亮当前的目标标题](/zh/integrations/vitepress-plugin-highlight-targeted-heading/) VitePress 插件时，hash tag 选中的标题（双链指向的标题）将在页面加载后以闪烁的效果突出显示，从而增强能力和阅读体验。
+搭配使用我们提供的 [闪烁高亮当前的目标标题]() VitePress 插件时，hash tag 选中的标题（双链指向的标题）将在页面加载后以闪烁的效果突出显示，从而增强能力和阅读体验。
 
 :::
 

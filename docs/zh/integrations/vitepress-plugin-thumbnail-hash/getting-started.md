@@ -189,7 +189,7 @@ export default Theme
 
 ## 接下来？
 
-为了显示和使用 VitePress 页面所需的缩略图模糊哈希。请查看另一个我们提供的名为 [`markdown-it-unlazy-img`](../markdown-it-unlazy-img/) 的插件。
+为了显示和使用 VitePress 页面所需的缩略图模糊哈希。请查看另一个我们提供的名为 [`markdown-it-unlazy-img`] 的插件。
 
 ## 错误排查
 

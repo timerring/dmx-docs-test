@@ -26,7 +26,7 @@ export const sidebars: Record<string, DefaultTheme.SidebarItem[] | DefaultTheme.
     '/en/ui/': calculateSidebar(['en/ui'], undefined, { '/': 2 }),
   } as DefaultTheme.SidebarMulti,
   zh: {
-    '/zh/': calculateSidebar(['zh/guide', 'zh/knowledge', 'zh/models', 'zh/integrations', 'zh/release'], undefined, { '/': 2 }),
+    '/zh/': calculateSidebar(['zh/guide', 'zh/knowledge', 'zh/models', 'zh/integrations'], undefined, { '/': 2 }),
     '/zh/ui/': calculateSidebar(['zh/ui'], undefined, { '/': 2 }),
   } as DefaultTheme.SidebarMulti,
 }

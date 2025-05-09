@@ -21,7 +21,7 @@ def query_kling_image_url(task_id):
     action = "images"
     action2 = "generations"
 
-    # 构建完整的查询路径，包含task_id参数
+    # 根据请求接口，构建完整的查询路径，包含task_id参数
     query_path = f"/kling/v1/{action}/{action2}/{task_id}"
     # 构建请求头，包含鉴权消息
     headers = {
